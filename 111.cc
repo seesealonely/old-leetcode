@@ -3,6 +3,6 @@ int main()
 {
 	Solution s;
 	TreeNode *root=s.buildTree();
-	cout<<	s.minDepth(root)<<endl;
+	cout<<	s.maxDepth(root)<<endl;
 	return 0;
 }
