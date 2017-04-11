@@ -40,8 +40,8 @@ public:
 		--rowEnd;
 		if (colBegin <= colEnd)
 		for(i=rowEnd;i>=rowBegin;--i)
-		res.push_back(matrix[i][colEnd]);
-		++rowBegin;
+		res.push_back(matrix[i][colBegin]);
+		++colBegin;
 	}
 	return res;
     }
