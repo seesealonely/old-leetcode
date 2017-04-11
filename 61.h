@@ -53,24 +53,21 @@ void show(struct ListNode *head)
 class Solution {
 	public:
 		ListNode* rotateRight(ListNode* head, int k) {
-			int i=0;
-			struct ListNode *tail=head;
-			if(head)
+			if(!head||!k) return head;
+			int len=1;
+			ListNode *tail=head;
+			while(tail->next) 
 			{
-				for(;i<k;i++)
-					if(tail->next)tail=tail->next;
-					else return NULL;	
-				struct ListNode *newhead=head;
-				while(tail->next)
-				{
-					newhead=newhead->next;
-					tail=tail->next;
-				}
-				tail->next=head;
-				head=newhead->next;
-				newhead->next=NULL;
+				tail=tail->next;
+				++len;
 			}
-			return head;
+			tail->next=head;
+			if(k%=len)
+			for(int i=0;i<len-k;i++)
+				tail=tail->next;
+			ListNode *h=tail->next;
+			tail->next=NULL;
+				return h;	
 		}
 
 };

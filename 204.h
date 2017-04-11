@@ -2,9 +2,9 @@
 #include<vector>
 using namespace std;
 class Solution {
-public:
-    int countPrimes(int n) {
-        	vector<bool> result(n,false);
+	public:
+		int countPrimes(int n) {
+			vector<bool> result(n,false);
 			int res=0;
 			for(int i=2;i<n;i++)
 			{
@@ -16,5 +16,5 @@ public:
 				}
 			} 
 			return res;
-    }
+		}
 };
