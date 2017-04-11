@@ -1,7 +1,11 @@
-ex:9 12 19 20 21 22 15t 18 24 25 26 27 31 35 34 39 40 41 17 46 48.RotateImage  53 55 58 59 61 62 63 66 67 69 70 74 75 77 78 80 82  83 88 89 90 91 92 94 98 100 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 167 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 283 287 342 344 345 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
+ex:9 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 27 31 35 34 39 40 41 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69 70 74 75 77 78 80 82  83 88 89 90 91 92 94 98 100 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 167 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 283 287 342 344 345 357.CountNumberswithUniqueDigits 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
 9:9.h 9.cxx 
 	g++ -g -Wall $^ -o $@
 12:12.h 12.cc
+	g++ -g -Wall $^ -o $@
+13.RomantoInteger:13.RomantoInteger.h  13.RomantoInteger.cc
+	g++ -g -Wall $^ -o $@
+16.3SumClosest:16.3SumClosest.h 16.3SumClosest.cc 
 	g++ -g -Wall $^ -o $@
 19:19.h 19.cxx 
 	g++ -g -Wall $^ -o $@
@@ -41,11 +45,17 @@ ex:9 12 19 20 21 22 15t 18 24 25 26 27 31 35 34 39 40 41 17 46 48.RotateImage  5
 	g++ -g -Wall $^ -o $@
 17:17.h 17.cxx 
 	g++ -g -Wall $^ -o $@
+45.JumpGameII:45.JumpGameII.h 45.JumpGameII.cc
+	g++ -g -Wall $^ -o $@
 46:46.h 46.cc 
+	g++ -g -Wall $^ -o $@
+47.PermutationsII:47.PermutationsII.h  47.PermutationsII.cc 
 	g++ -g -Wall $^ -o $@
 48.RotateImage:48.RotateImage.h  48.RotateImage.cc  
 	g++ -g -Wall $^ -o $@
 53:53.h 53.cc 
+	g++ -g -Wall $^ -o $@
+54.SpiralMatrix:54.SpiralMatrix.h  54.SpiralMatrix.cc
 	g++ -g -Wall $^ -o $@
 55:55.h 55.cc 
 	g++ -g -Wall $^ -o $@
@@ -191,6 +201,8 @@ ex:9 12 19 20 21 22 15t 18 24 25 26 27 31 35 34 39 40 41 17 46 48.RotateImage  5
 	g++ -g -Wall $^ -o $@
 344:344.h 344.cc 
 	g++ -g -Wall $^ -o $@
+357.CountNumberswithUniqueDigits:357.CountNumberswithUniqueDigits.h 357.CountNumberswithUniqueDigits.cc 
+	g++ -g -Wall $^ -o $@
 389:389.h 389.cc 
 	g++ -g -Wall $^ -o $@
 383:383.h 383.cc 
@@ -226,5 +238,4 @@ ex:9 12 19 20 21 22 15t 18 24 25 26 27 31 35 34 39 40 41 17 46 48.RotateImage  5
 532:532.h 532.cc 
 	g++ -g -Wall $^ -o $@
 clean:
-	rm -f 9 12 19 20 21 22 15t 18 24 25 26 100 26 27 31 34 35 17 39 40 41 46 48.RotateImage 53 55 58 59 61 62 63 66 67 69 70 74 75 77 78 80 82 83 88 89 90 91 92 94 98 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 167 168 169 171 189 190 191 198 200 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 287 283 344 342 345 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
-
+	rm -f 9 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 100 26 27 31 34 35 17 39 40 41 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69 70 74 75 77 78 80 82 83 88 89 90 91 92 94 98 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 167 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 287 283 344 342 345 357.CountNumberswithUniqueDigits 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
