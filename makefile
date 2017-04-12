@@ -1,4 +1,4 @@
-ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 27 31 33.SearchinRotatedSortedArray 35 34 39 40 41 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 91 92 94 98 100 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 283 287 342 344 345 357.CountNumberswithUniqueDigits 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
+ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 27 31 33.SearchinRotatedSortedArray 35 34 39 40 41 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 91 92 94 98 100 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  162.FindPeakElement 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287 342 344 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
 9:9.h 9.cxx 
 	g++ -g -Wall $^ -o $@
 11.ContainerWithMostWater:11.ContainerWithMostWater.h 11.ContainerWithMostWater.cc   
@@ -77,7 +77,7 @@ ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 1
 	g++ -g -Wall $^ -o $@
 67:67.h 67.cc 
 	g++ -g -Wall $^ -o $@
-69:69.h 69.cc 
+69.Sqrtx:69.Sqrtx.h  69.Sqrtx.cc  
 	g++ -g -Wall $^ -o $@
 70:70.h 70.cc 
 	g++ -g -Wall $^ -o $@
@@ -145,6 +145,8 @@ ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 1
 	g++ -g -Wall $^ -o $@
 154.FindMinimuminRotatedSortedArrayII:154.FindMinimuminRotatedSortedArrayII.h 154.FindMinimuminRotatedSortedArrayII.cc   
 	g++ -g -Wall $^ -o $@
+162.FindPeakElement:162.FindPeakElement.h  162.FindPeakElement.cc   
+	g++ -g -Wall $^ -o $@
 167:167.h 167.cc 
 	g++ -g -Wall $^ -o $@
 168:168.h 168.cc 
@@ -185,7 +187,7 @@ ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 1
 	g++ -g -Wall $^ -o $@
 234:234.h 234.cc 
 	g++ -g -Wall $^ -o $@
-240:240.h 240.cc 
+240.Searcha2DMatrixII:240.Searcha2DMatrixII.h  240.Searcha2DMatrixII.cc   
 	g++ -g -Wall $^ -o $@
 242:242.h 242.cc 
 	g++ -g -Wall $^ -o $@
@@ -212,6 +214,8 @@ ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 1
 344:344.h 344.cc 
 	g++ -g -Wall $^ -o $@
 357.CountNumberswithUniqueDigits:357.CountNumberswithUniqueDigits.h 357.CountNumberswithUniqueDigits.cc 
+	g++ -g -Wall $^ -o $@
+367.ValidPerfectSquare:367.ValidPerfectSquare.h  367.ValidPerfectSquare.cc  
 	g++ -g -Wall $^ -o $@
 389:389.h 389.cc 
 	g++ -g -Wall $^ -o $@
@@ -248,5 +252,4 @@ ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 1
 532:532.h 532.cc 
 	g++ -g -Wall $^ -o $@
 clean:
-	rm -f 9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 100 26 27 31 33.SearchinRotatedSortedArray 34 35 17 39 40 41 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 98 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 167 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 287 283 344 342 345 357.CountNumberswithUniqueDigits 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
-
+	rm -f 9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 100 26 27 31 33.SearchinRotatedSortedArray 34 35 17 39 40 41 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 98 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 162.FindPeakElement 167 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 287 283 344 342 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
