@@ -1,4 +1,4 @@
-ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 27 31 33.SearchinRotatedSortedArray 35 34 39 40 41 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 91 92 94 98 100 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  162.FindPeakElement 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287 342 344 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
+ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 27 31 33.SearchinRotatedSortedArray 35 34 39 40 41 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 91 92 94 98 100 107 111 112 113 118 119 120 121 125 129 131.PalindromePartitioning 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  162.FindPeakElement 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287 342 344 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
 9:9.h 9.cxx 
 	g++ -g -Wall $^ -o $@
 11.ContainerWithMostWater:11.ContainerWithMostWater.h 11.ContainerWithMostWater.cc   
@@ -131,6 +131,8 @@ ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 1
 	g++ -g -Wall $^ -o $@
 129:129.h 129.cc 
 	g++ -g -Wall $^ -o $@
+131.PalindromePartitioning:131.PalindromePartitioning.h 131.PalindromePartitioning.cc   
+	g++ -g -Wall $^ -o $@
 136:136.h 136.cc 
 	g++ -g -Wall $^ -o $@
 137:137.h 137.cc 
@@ -252,4 +254,5 @@ ex:9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 1
 532:532.h 532.cc 
 	g++ -g -Wall $^ -o $@
 clean:
-	rm -f 9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 100 26 27 31 33.SearchinRotatedSortedArray 34 35 17 39 40 41 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 98 107 111 112 113 118 119 120 121 125 129 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 162.FindPeakElement 167 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 287 283 344 342 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
+	rm -f 9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 100 26 27 31 33.SearchinRotatedSortedArray 34 35 17 39 40 41 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 98 107 111 112 113 118 119 120 121 125 129 131.PalindromePartitioning 136 137 144 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 162.FindPeakElement 167 168 169 171 189 190 191 198 200 201 203 204 205 206 215 217 219 220 231 234 240 242 257 260 263 264 268 279 287 283 344 342 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 389 383 404 405 412 414 434 437 448 459 461 476 485 504 513 515 532
+
