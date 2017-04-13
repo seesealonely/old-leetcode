@@ -40,4 +40,7 @@ int main()
 	cout<<s.integerReplacement(7)<<endl;
 	cout<<s.integerReplacement(1>>30)<<endl;
 	cout<<s.integerReplacement(3)<<endl;
+	cout<<s.integerReplacement(200000000)<<endl;
+	cout<<s.integerReplacement(2147483647)<<endl;
+		return 0;
 }

@@ -35,16 +35,9 @@ or
 
 class Solution {
 public:
-    int integerReplacement(int n) {
-	int res=0;
- 	while(n)
-	{
-		++res;
-		if(n&1)
-			if((n+1)%4==0)  n+=1;
-			else n-=1;
-		else n/=2;
-	}       
-	return --res;
+    int integerReplacement(long long n) {
+	if(n<=1) return 0;
+		if(n%2==0) return integerReplacement(n/2)+1;
+		else return min(integerReplacement(n-1)+1,integerReplacement((long long)(n+1))+1);
     }
 };
