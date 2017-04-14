@@ -5,4 +5,5 @@
 #include<algorithm>
 #include<cctype>
 #include<sstream>
+#include<stack>
 using namespace std;
