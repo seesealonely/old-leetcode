@@ -70,17 +70,17 @@ class Solution {
 				else
 				{
 					TreeNode *right=root->right;
-					TreeNode *pre=root;
+//					TreeNode *pre=root;
 					while(right->left)
-					{
-						pre=right;
+//					{
+//						pre=right;
 						right=right->left;
-					}
-					pre->left=right->right;	
-					right->right=NULL;
-					return right;
+//					}
+//					pre->left=right->right;	
+//					right->right=NULL;
+//					return right;
 
-//					swap(root->val,right->val);
+					swap(root->val,right->val);
 				}
 			}			
 			root->left=dfs(root->left,key);
