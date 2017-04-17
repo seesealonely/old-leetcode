@@ -126,3 +126,29 @@ void show(vector<vector<int> > v)
 	cout<<endl;
 	}
 }
+ // Definition for binary tree with next pointer.
+ struct TreeLinkNode {
+ int val;
+ TreeLinkNode *left, *right, *next;
+ TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
+ };
+TreeLinkNode *buildTree(bool i)
+{
+	int input=10;
+	cin>>input;
+	TreeLinkNode *root;
+	if(input<80)
+	{
+		root=new TreeLinkNode(input);
+		root->left=buildTree(true);
+		root->right=buildTree(true);
+	}	
+	return input>=9?NULL:root;
+}
+void  show(struct TreeLinkNode *root)
+{
+	if(root) cout<<root->val<<" ";
+	else return;
+	show(root->left);
+	show(root->right);
+}
