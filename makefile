@@ -1,4 +1,4 @@
-ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 35 34 39 40 41.FirstMissingPositive 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 92 94 98 100 107 111 112 113 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 147.InsertionSortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  162.FindPeakElement 168 169 171 172.FactorialTrailingZeroes 189 190 191 198 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 226.InvertBinaryTree 231 234 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 326.PowerofThree 337.HouseRobberIII 338.CountingBits 342 344 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 397.IntegerReplacement 402.RemoveKDigits 404 405 409.LongestPalindrome 412 413.ArithmeticSlices 434 438.FindAllAnagramsinaString 441.ArrangingCoins 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 459 461 476 485 500.KeyboardRow 504 513 515 532 541.ReverseStringII 554.BrickWall 557.ReverseWordsinaStringIII
+ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 15t 18 24 25 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 35 34.SearchforaRange 39 40 41.FirstMissingPositive 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 92 94 98 100 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 111.MinimumDepthofBinaryTree 112 113 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 147.InsertionSortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  162.FindPeakElement 168 169 171 172.FactorialTrailingZeroes 189 190 191 198 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 226.InvertBinaryTree 231 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 328.OddEvenLinkedList 326.PowerofThree 337.HouseRobberIII 338.CountingBits 342 344 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 394.DecodeString 397.IntegerReplacement 402.RemoveKDigits 405 409.LongestPalindrome 412 413.ArithmeticSlices 434 438.FindAllAnagramsinaString 441.ArrangingCoins 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 459 461 476 485 500.KeyboardRow 504 513 515 532 541.ReverseStringII 554.BrickWall 557.ReverseWordsinaStringIII
 3.LongestSubstringWithoutRepeatingCharacters:3.LongestSubstringWithoutRepeatingCharacters.h 3.LongestSubstringWithoutRepeatingCharacters.cc   
 	g++ -g -Wall $^ -o $@
 9:9.h 9.cxx 
@@ -9,13 +9,15 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 	g++ -g -Wall $^ -o $@
 13.RomantoInteger:13.RomantoInteger.h  13.RomantoInteger.cc
 	g++ -g -Wall $^ -o $@
+14.LongestCommonPrefix:14.LongestCommonPrefix.h 14.LongestCommonPrefix.cc   
+	g++ -g -Wall $^ -o $@
 16.3SumClosest:16.3SumClosest.h 16.3SumClosest.cc 
 	g++ -g -Wall $^ -o $@
 19:19.h 19.cxx 
 	g++ -g -Wall $^ -o $@
 20:20.h 20.cxx 
 	g++ -g -Wall $^ -o $@
-22:22.h 22.cc 
+22.GenerateParentheses:22.GenerateParentheses.h 22.GenerateParentheses.cc   
 	g++ -g -Wall $^ -o $@
 21:21.h 21.cxx 
 	g++ -g -Wall $^ -o $@
@@ -41,7 +43,7 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 	g++ -g -Wall $^ -o $@
 33.SearchinRotatedSortedArray:33.SearchinRotatedSortedArray.h  33.SearchinRotatedSortedArray.cc  
 	g++ -g -Wall $^ -o $@
-34:34.h 34.cc 
+34.SearchforaRange:34.SearchforaRange.h 34.SearchforaRange.cc   
 	g++ -g -Wall $^ -o $@
 35:35.h 35.cxx 
 	g++ -g -Wall $^ -o $@
@@ -115,9 +117,17 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 	g++ -g -Wall $^ -o $@
 98:98.h 98.cc 
 	g++ -g -Wall $^ -o $@
+101.SymmetricTree:101.SymmetricTree.h 101.SymmetricTree.cc   
+	g++ -g -Wall $^ -o $@
+103.BinaryTreeZigzagLevelOrderTraversal:103.BinaryTreeZigzagLevelOrderTraversal.h 103.BinaryTreeZigzagLevelOrderTraversal.cc   
+	g++ -g -Wall $^ -o $@
 107:107.h 107.cc 
 	g++ -g -Wall $^ -o $@
-111:111.h 111.cc 
+108.ConvertSortedArraytoBinarySearchTree:108.ConvertSortedArraytoBinarySearchTree.h 108.ConvertSortedArraytoBinarySearchTree.cc   
+	g++ -g -Wall $^ -o $@
+109.ConvertSortedListtoBinarySearchTree:109.ConvertSortedListtoBinarySearchTree.h  109.ConvertSortedListtoBinarySearchTree.cc   
+	g++ -g -Wall $^ -o $@
+111.MinimumDepthofBinaryTree:111.MinimumDepthofBinaryTree.h 111.MinimumDepthofBinaryTree.cc   
 	g++ -g -Wall $^ -o $@
 112:112.h 112.cc 
 	g++ -g -Wall $^ -o $@
@@ -138,6 +148,8 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 131.PalindromePartitioning:131.PalindromePartitioning.h 131.PalindromePartitioning.cc   
 	g++ -g -Wall $^ -o $@
 132.PalindromePartitioningII:132.PalindromePartitioningII.h 132.PalindromePartitioningII.cc   
+	g++ -g -Wall $^ -o $@
+134.GasStation:134.GasStation.h 134.GasStation.cc   
 	g++ -g -Wall $^ -o $@
 136:136.h 136.cc 
 	g++ -g -Wall $^ -o $@
@@ -211,6 +223,8 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 	g++ -g -Wall $^ -o $@
 234:234.h 234.cc 
 	g++ -g -Wall $^ -o $@
+238.ProductofArrayExceptSelf:238.ProductofArrayExceptSelf.h 238.ProductofArrayExceptSelf.cc   
+	g++ -g -Wall $^ -o $@
 240.Searcha2DMatrixII:240.Searcha2DMatrixII.h  240.Searcha2DMatrixII.cc   
 	g++ -g -Wall $^ -o $@
 242:242.h 242.cc 
@@ -235,6 +249,8 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 	g++ -g -Wall $^ -o $@
 326.PowerofThree:326.PowerofThree.h 326.PowerofThree.cc  
 	g++ -g -Wall $^ -o $@
+328.OddEvenLinkedList:328.OddEvenLinkedList.h  328.OddEvenLinkedList.cc   
+	g++ -g -Wall $^ -o $@
 337.HouseRobberIII:337.HouseRobberIII.h 337.HouseRobberIII.cc   
 	g++ -g -Wall $^ -o $@
 338.CountingBits:338.CountingBits.h 338.CountingBits.cc   
@@ -252,6 +268,8 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 389:389.h 389.cc 
 	g++ -g -Wall $^ -o $@
 383:383.h 383.cc 
+	g++ -g -Wall $^ -o $@
+394.DecodeString:394.DecodeString.h 394.DecodeString.cc   
 	g++ -g -Wall $^ -o $@
 397.IntegerReplacement:397.IntegerReplacement.h 397.IntegerReplacement.cc   
 	g++ -g -Wall $^ -o $@
@@ -308,6 +326,4 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 1
 557.ReverseWordsinaStringIII:557.ReverseWordsinaStringIII.h 557.ReverseWordsinaStringIII.cc
 	g++ -g -Wall $^ -o $@
 clean:
-	rm -f 3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 13.RomantoInteger 19 16.3SumClosest 20 21 22 15t 18 24 25 26 100 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 34 35 17 39 40 41.FirstMissingPositive 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 98 107 111 112 113 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 147.InsertionSortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 162.FindPeakElement 167 168 169 172.FactorialTrailingZeroes 171 189 190 191 198 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 226.InvertBinaryTree 231 234 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 326.PowerofThree 337.HouseRobberIII 338.CountingBits 344 342 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 397.IntegerReplacement 402.RemoveKDigits 404 405 409.LongestPalindrome 412 413.ArithmeticSlices 414 434 438.FindAllAnagramsinaString 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 459 461 476 485 500.KeyboardRow 504 513 515 532 541.ReverseStringII  554.BrickWall 557.ReverseWordsinaStringIII
-
-
+	rm -f 3.LongestSubstringWithoutRepeatingCharacters 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 15t 18 24 25 26 100 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 34.SearchforaRange 35 17 39 40 41.FirstMissingPositive 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 98 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 111.MinimumDepthofBinaryTree 112 113 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 147.InsertionSortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 162.FindPeakElement 167 168 169 172.FactorialTrailingZeroes 171 189 190 191 198 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 226.InvertBinaryTree 231 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 326.PowerofThree 328.OddEvenLinkedList 337.HouseRobberIII 338.CountingBits 344 342 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 394.DecodeString 397.IntegerReplacement 402.RemoveKDigits 404 405 409.LongestPalindrome 412 413.ArithmeticSlices 414 434 438.FindAllAnagramsinaString 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 459 461 476 485 500.KeyboardRow 504 513 515 532 541.ReverseStringII  554.BrickWall 557.ReverseWordsinaStringIII

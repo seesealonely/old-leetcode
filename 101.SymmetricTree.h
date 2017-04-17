@@ -35,20 +35,16 @@ Bonus points if you could solve it both recursively and iteratively.
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
-        	return dfs(root);
+        	return dfs(root->left,root->right);
     }
 private:
-	bool dfs(TreeNode *root)
+	bool dfs(TreeNode *left,TreeNode *right)
 	{
-		if(!root) return true;
-		if(!root->left&&!root->right)
-		return true;
-		if(!root->left&&root->right)
+		if((!left&&right)||(left&&!right)) return false;
+		if(!left&&!right) return true;
+		if(left->val!=right->val)
 		return false;
-		if(!root->left&&!root->right)
-		return false;
-		if(root->left->val==root->right->val)
-		dfs(root->left)&dfs(root->right);
+		return dfs(left->left,right->right)&&dfs(left->right,right->left);
 	
     }
 };

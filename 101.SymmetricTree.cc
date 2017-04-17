@@ -34,7 +34,8 @@ Bonus points if you could solve it both recursively and iteratively.
  */
 int main()
 {
+	struct TreeNode *r=buildTree();
 	Solution s;
-	s.isSymmetric();
+	(s.isSymmetric(r));
 	return 0;
 }

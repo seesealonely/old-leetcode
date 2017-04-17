@@ -73,7 +73,7 @@ TreeNode *buildTree()
 	int input=10;
 	cin>>input;
 	TreeNode *root;
-	if(input<9)
+	if(input<80)
 	{
 		root=new TreeNode(input);
 		root->left=buildTree();
@@ -83,10 +83,10 @@ TreeNode *buildTree()
 }
 void  show(struct TreeNode *root)
 {
-if(root) cout<<root->val<<" ";
-else return;
- show(root->left);
- show(root->right);
+	if(root) cout<<root->val<<" ";
+	else return;
+	show(root->left);
+	show(root->right);
 }
 void show(struct ListNode *head)
 {
@@ -110,4 +110,19 @@ void show(vector<int> v)
 	for(int i=0;i<v.size();++i)
 		cout<<v[i]<<"　";
 	cout<<endl;
+}
+void show(vector<string> v)
+{
+	for(int i=0;i<v.size();++i)
+		cout<<v[i]<<"　";
+	cout<<endl;
+}
+void show(vector<vector<int> > v)
+{
+	for(int i=0;i<v.size();++i)
+	{
+		for(int j=0;j<v[i].size();++j)
+			cout<<v[i][j]<<"　";
+	cout<<endl;
+	}
 }
