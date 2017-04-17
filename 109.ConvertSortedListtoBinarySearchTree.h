@@ -29,7 +29,7 @@ class Solution {
 		TreeNode *dfs(ListNode *head,ListNode *end)
 		{
 			if(!head) return NULL;
-			if(!head->next) return new TreeNode(head->val);
+			if(head==end) return NULL;// new TreeNode(head->val);
 			ListNode *mid=head,*fast=head;
 			while(fast!=end&&fast->next!=end)
 			{
