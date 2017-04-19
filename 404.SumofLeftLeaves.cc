@@ -13,7 +13,7 @@ There are two left leaves in the binary tree, with values 9 and 15 respectively.
 
 */
 
-#include"head.h"
+#include"404.SumofLeftLeaves.h"
 
 /**
  * Definition for a binary tree node.
@@ -24,22 +24,11 @@ There are two left leaves in the binary tree, with values 9 and 15 respectively.
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-class Solution {
-	public:
-		int dfs(TreeNode *root)
-		{
-			if(!root) return 0;
-			int sum=0;
-			if(root->left)
-			{
-				if(!root->left->left&&!root->left->right)
-				sum+=root->left->val;
-				else  sum+=dfs(root->left);
-			}
-			sum+=dfs(root->right);
-			return sum;
-		}
-		int sumOfLeftLeaves(TreeNode* root) {
-			return dfs(root);
-		}
-};
+
+int main()
+{
+	TreeNode *r=buildTree();
+	Solution s;
+	cout<<s.sumOfLeftLeaves(r)<<endl;
+	return 0;
+}

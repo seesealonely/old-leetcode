@@ -46,7 +46,7 @@ TreeNode *cur=NULL;
 	st.push(root);
 	while(!st.empty())       
 	{
-		cur=st.top();//st.pop();
+		cur=st.top();st.pop();
 		if(!cur->right) st.push(cur->right);
 		if(!cur->left) st.push(cur->left);
 		if(!st.empty()) cur->right=st.top();

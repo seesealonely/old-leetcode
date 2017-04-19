@@ -26,7 +26,7 @@ Return 3. The paths that sum to 8 are:
 3. -3 -> 11
 */
 
-#include"head.h"
+#include"437.PathSumIII.h"
 
 /**
  * Definition for a binary tree node.
@@ -37,16 +37,11 @@ Return 3. The paths that sum to 8 are:
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-class Solution {
-public:
-    int pathSum(TreeNode* root) {
-//	return root->val==sum+pathSum(root,root->val,sum)+pathSum(root,root->val,sum);
-    }
-private:
-	void dfs(TreeNode *root,int pre,int sum)
-	{
-//		if(!root) return 0;
-//	int current=pre+root->val;
-//	return (current==sum)+dfs(root->left,current,sum)+dfs(root->right,current,sum);
-	}
-};
+
+int main()
+{
+	TreeNode *r=buildTree();
+	Solution s;
+	cout<<s.pathSum(r)<<endl;
+	return 0;
+}

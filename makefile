@@ -1,4 +1,4 @@
-ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 35 34.SearchforaRange 39 40 41.FirstMissingPositive 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 92 94 96.UniqueBinarySearchTrees 100 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 116.PopulatingNextRightPointersinEachNode 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 145.BinaryTreePostorderTraversal 147.InsertionSortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  162.FindPeakElement 168 169 171 172.FactorialTrailingZeroes 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 226.InvertBinaryTree 231 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 328.OddEvenLinkedList 326.PowerofThree 337.HouseRobberIII 338.CountingBits 342 344 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 394.DecodeString 397.IntegerReplacement 402.RemoveKDigits 405 409.LongestPalindrome 412 413.ArithmeticSlices 434 438.FindAllAnagramsinaString 441.ArrangingCoins 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 450.DeleteNodeinaBST 459 461 476 485 500.KeyboardRow 504 513 515 532 541.ReverseStringII 554.BrickWall 557.ReverseWordsinaStringIII
+ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 35 34.SearchforaRange 39 40 41.FirstMissingPositive 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 92 94 96.UniqueBinarySearchTrees 100 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 116.PopulatingNextRightPointersinEachNode 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 147.InsertionSortList 148.SortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  162.FindPeakElement 168 169 171 172.FactorialTrailingZeroes 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 222.CountCompleteTreeNodes  226.InvertBinaryTree 230.KthSmallestElementinaBST 231 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 328.OddEvenLinkedList 326.PowerofThree 337.HouseRobberIII 338.CountingBits 342 344 345 349.IntersectionofTwoArrays 350.IntersectionofTwoArraysII 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 394.DecodeString 397.IntegerReplacement 402.RemoveKDigits 404.SumofLeftLeaves 405 409.LongestPalindrome 412 413.ArithmeticSlices 434 437.PathSumIII 438.FindAllAnagramsinaString 441.ArrangingCoins 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 450.DeleteNodeinaBST 459 461 463.IslandPerimeter 476 477.TotalHammingDistance 485 492.ConstructtheRectangle 500.KeyboardRow 504 507.PerfectNumber 513 515 532 541.ReverseStringII 554.BrickWall 557.ReverseWordsinaStringIII
 3.LongestSubstringWithoutRepeatingCharacters:3.LongestSubstringWithoutRepeatingCharacters.h 3.LongestSubstringWithoutRepeatingCharacters.cc   
 	g++ -g -Wall $^ -o $@
 5.LongestPalindromicSubstring:5.LongestPalindromicSubstring.h 5.LongestPalindromicSubstring.cc   
@@ -183,6 +183,8 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.
 	g++ -g -Wall $^ -o $@
 147.InsertionSortList:147.InsertionSortList.h 147.InsertionSortList.cc   
 	g++ -g -Wall $^ -o $@
+148.SortList:148.SortList.h 148.SortList.cc   
+	g++ -g -Wall $^ -o $@
 150:150.h 150.cc 
 	g++ -g -Wall $^ -o $@
 152:152.h 152.cc 
@@ -237,7 +239,11 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.
 	g++ -g -Wall $^ -o $@
 220:220.h 220.cc 
 	g++ -g -Wall $^ -o $@
+222.CountCompleteTreeNodes:222.CountCompleteTreeNodes.h 222.CountCompleteTreeNodes.cc   
+	g++ -g -Wall $^ -o $@
 226.InvertBinaryTree:226.InvertBinaryTree.h 226.InvertBinaryTree.cc   
+	g++ -g -Wall $^ -o $@
+230.KthSmallestElementinaBST:230.KthSmallestElementinaBST.h 230.KthSmallestElementinaBST.cc   
 	g++ -g -Wall $^ -o $@
 231:231.h 231.cc 
 	g++ -g -Wall $^ -o $@
@@ -281,6 +287,10 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.
 	g++ -g -Wall $^ -o $@
 344:344.h 344.cc 
 	g++ -g -Wall $^ -o $@
+349.IntersectionofTwoArrays:349.IntersectionofTwoArrays.h 349.IntersectionofTwoArrays.cc   
+	g++ -g -Wall $^ -o $@
+350.IntersectionofTwoArraysII:350.IntersectionofTwoArraysII.h 350.IntersectionofTwoArraysII.cc   
+	g++ -g -Wall $^ -o $@
 357.CountNumberswithUniqueDigits:357.CountNumberswithUniqueDigits.h 357.CountNumberswithUniqueDigits.cc 
 	g++ -g -Wall $^ -o $@
 367.ValidPerfectSquare:367.ValidPerfectSquare.h  367.ValidPerfectSquare.cc  
@@ -295,7 +305,7 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.
 	g++ -g -Wall $^ -o $@
 402.RemoveKDigits:402.RemoveKDigits.h 402.RemoveKDigits.cc   
 	g++ -g -Wall $^ -o $@
-404:404.h 404.cc 
+404.SumofLeftLeaves:404.SumofLeftLeaves.h 404.SumofLeftLeaves.cc   
 	g++ -g -Wall $^ -o $@
 405:405.h 405.cc 
 	g++ -g -Wall $^ -o $@
@@ -310,6 +320,8 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.
 434:434.h 434.cc 
 	g++ -g -Wall $^ -o $@
 437:437.h 437.cc 
+	g++ -g -Wall $^ -o $@
+437.PathSumIII:437.PathSumIII.h 437.PathSumIII.cc   
 	g++ -g -Wall $^ -o $@
 438.FindAllAnagramsinaString:438.FindAllAnagramsinaString.h 438.FindAllAnagramsinaString.cc  
 	g++ -g -Wall $^ -o $@
@@ -327,13 +339,21 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.
 	g++ -g -Wall $^ -o $@
 461:461.h 461.cc 
 	g++ -g -Wall $^ -o $@
+463.IslandPerimeter:463.IslandPerimeter.h 463.IslandPerimeter.cc   
+	g++ -g -Wall $^ -o $@
 476:476.h 476.cc 
 	g++ -g -Wall $^ -o $@
+477.TotalHammingDistance:477.TotalHammingDistance.h 477.TotalHammingDistance.cc   
+	g++ -g -Wall $^ -o $@
 485:485.h 485.cc 
+	g++ -g -Wall $^ -o $@
+492.ConstructtheRectangle:492.ConstructtheRectangle.h 492.ConstructtheRectangle.cc   
 	g++ -g -Wall $^ -o $@
 500.KeyboardRow:500.KeyboardRow.h 500.KeyboardRow.cc  
 	g++ -g -Wall $^ -o $@
 504:504.h 504.cc 
+	g++ -g -Wall $^ -o $@
+507.PerfectNumber:507.PerfectNumber.h 507.PerfectNumber.cc   
 	g++ -g -Wall $^ -o $@
 515:515.h 515.cc 
 	g++ -g -Wall $^ -o $@
@@ -348,6 +368,7 @@ ex:3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.
 557.ReverseWordsinaStringIII:557.ReverseWordsinaStringIII.h 557.ReverseWordsinaStringIII.cc
 	g++ -g -Wall $^ -o $@
 clean:
-	rm -f 3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 100 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 34.SearchforaRange 35 17 39 40 41.FirstMissingPositive 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 96.UniqueBinarySearchTrees 98 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 116.PopulatingNextRightPointersinEachNode 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 145.BinaryTreePostorderTraversal 147.InsertionSortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 162.FindPeakElement 167 168 169 172.FactorialTrailingZeroes 171 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 226.InvertBinaryTree 231 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 326.PowerofThree 328.OddEvenLinkedList 337.HouseRobberIII 338.CountingBits 344 342 345 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 394.DecodeString 397.IntegerReplacement 402.RemoveKDigits 404 405 409.LongestPalindrome 412 413.ArithmeticSlices 414 434 438.FindAllAnagramsinaString 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 450.DeleteNodeinaBST 459 461 476 485 500.KeyboardRow 504 513 515 532 541.ReverseStringII  554.BrickWall 557.ReverseWordsinaStringIII core
+	rm -f 3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 100 26 27 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 34.SearchforaRange 35 17 39 40 41.FirstMissingPositive 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91 92 94 96.UniqueBinarySearchTrees 98 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 116.PopulatingNextRightPointersinEachNode 118 119 120 121 125 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 145.BinaryTreePostorderTraversal 147.InsertionSortList 148.SortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 162.FindPeakElement 167 168 169 172.FactorialTrailingZeroes 171 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 217 219 220 222.CountCompleteTreeNodes  226.InvertBinaryTree 230.KthSmallestElementinaBST 231 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 242 257 260 263 264 268 279 283 287.FindtheDuplicateNumber 290.WordPattern 326.PowerofThree 328.OddEvenLinkedList 337.HouseRobberIII 338.CountingBits 344 342 345 349.IntersectionofTwoArrays 350.IntersectionofTwoArraysII 357.CountNumberswithUniqueDigits 367.ValidPerfectSquare 387.FirstUniqueCharacterinaString 389 383 394.DecodeString 397.IntegerReplacement 402.RemoveKDigits 404.SumofLeftLeaves 405 409.LongestPalindrome 412 413.ArithmeticSlices 414 434 437.PathSumIII 438.FindAllAnagramsinaString 441.ArrangingCoins 442.FindAllDuplicatesinanArray 445.AddTwoNumbersII 448 450.DeleteNodeinaBST 459 461 463.IslandPerimeter 476 477.TotalHammingDistance 485 492.ConstructtheRectangle 500.KeyboardRow 504 507.PerfectNumber 513 515 532 541.ReverseStringII  554.BrickWall 557.ReverseWordsinaStringIII core
 #160.IntersectionofTwoLinkedLists.h
 #235.LowestCommonAncestorofaBinarySearchTree.h
+
