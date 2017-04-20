@@ -39,7 +39,7 @@ The flattened tree should look like:
  */
 class Solution {
 public:
-    void flatten(TreeNode* root) {
+void flatten(TreeNode* root) {
  if(!root) return;
 stack<TreeNode *> st;
 TreeNode *cur=NULL;
@@ -53,4 +53,14 @@ TreeNode *cur=NULL;
 		cur->left=NULL;
 	}
     }
+void flatten1(TreeNode* root) {
+	if(!root) return ;
+	flatten1(root->right);
+	flatten1(root->left);
+	root->right=prev;
+	root->left=NULL;
+	prev=root;
+}
+private:
+TreeNode *prev=NULL;
 };

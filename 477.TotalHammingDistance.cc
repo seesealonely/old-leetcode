@@ -24,7 +24,8 @@ Note:
 
 int main()
 {
+	vector<int> v;
 	Solution s;
-	s.totalHammingDistance();
+	s.totalHammingDistance(v);
 	return 0;
 }
