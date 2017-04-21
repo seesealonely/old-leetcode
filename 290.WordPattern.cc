@@ -18,16 +18,9 @@ You may assume pattern contains only lowercase letters, and str contains lowerca
 
 int main()
 {
-	string ss1("dog cat cat dog");
-	string ss2("dog cat cat fish");
-	string ss3("dog dog dog dog");
-
-	string p1("abba");
-	string p2("aaaa");
-	Solution s;
-	cout<<s.wordPattern(p1,ss1)<<endl;
-	cout<<s.wordPattern(p1,ss2)<<endl;
-	cout<<s.wordPattern(p2,ss1)<<endl;
-	cout<<s.wordPattern(p1,ss2)<<endl;
+	string p("abba"),m("dog cat cat dog");
+	Solution s;	
+	cout<<s.wordPattern(p,m)<<endl;
+	cout<<s.wordPattern("abba","dog cat cat fish")<<endl;
 	return 0;
 }

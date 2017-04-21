@@ -35,10 +35,10 @@ public:
 private:
 void dfs(vector<vector<int> > &res,vector<int> oneRes,int k,int n)
 {
-	if(k==oneRes.size()&&n==0) return res.push_back(oneRes);
-	if(oneRes.size()<k)
+	if(k==oneRes.size()||n==0) res.push_back(oneRes);
+	if(k<oneRes.size())
 	{
-		for(int i=oneRes.empty()?1:oneRes[oneRes.size()-1]+1;i<=9;++i)
+		for(int i=oneRes.size()?1:oneRes[oneRes.size()-1];i<9;++i)
 		{
 			if(n-i<0) break;
 			oneRes.push_back(i);

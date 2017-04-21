@@ -26,10 +26,7 @@ Output:
 
 int main()
 {
-	Solution s;
-	show(s.combinationSum3(3,9));
-	cout<<"##################"<<endl;
-	show(s.combinationSum3(3,15));
-	cout<<"##################"<<endl;
+	Solution s;	
+	s.combinationSum3(3,9);
 	return 0;
 }
