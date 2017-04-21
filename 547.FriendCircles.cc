@@ -30,32 +30,15 @@ Note:
     If M[i][j] = 1, then M[j][i] = 1.
 */
 
-#include"head.h"
+#include"547.FriendCircles.h"
 
-class Solution {
-public:
-    int findCircleNum(vector<vector<int> >& M) {
-	if(M.empty()) return 0;
-	int row=M.size(),groups=row,f1=0,f2=0;
-	vector<int> finds(row,0);
-	for(int i=0;i<row;++i) finds[i]=i;
-	for(int i=0;i<row;++i)
-		for(int j=i+1;j<row;j++)
-		if(M[i][j])
-		{
-		f1=find(i,finds);
-		f2=find(j,finds);	
-			if(f1!=f2)
-			{
-				finds[f1]=f2;
-				groups--;
-			}
-		} 
-		return groups;
-    }
-private:
-	int find(int index,vector<int> &parents)
-	{
-	return parents[index]==index?index:find(parents[index],parents);
-	}
-};
+int main()
+{
+	vector<vector<int> > v;
+	v.resize(v.size()+1);v[0].push_back(1);v[0].push_back(1);v[0].push_back(0);
+	v.resize(v.size()+1);v[1].push_back(1);v[1].push_back(1);v[1].push_back(1);
+	v.resize(v.size()+1);v[2].push_back(0);v[2].push_back(1);v[2].push_back(1);
+	Solution s;
+	cout<<s.findCircleNum(v)<<endl;
+	return 0;
+}
