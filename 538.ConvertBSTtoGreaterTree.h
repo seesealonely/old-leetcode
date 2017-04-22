@@ -29,10 +29,18 @@ Output: The root of a Greater Tree like this:
 class Solution {
 public:
     TreeNode* convertBST(TreeNode* root) {
-        
+	sum=0;
+	dfs(root);        
+	return root;
     }
 void dfs(TreeNode *root)
 {
-	
+	if(!root) return;	
+	dfs(root->right);
+	root->val+=sum;
+	sum=root->val;
+	dfs(root->left);
 }
+private:
+int sum;
 };

@@ -20,7 +20,10 @@ Output: The root of a Greater Tree like this:
 int main()
 {
 	TreeNode *r=buildTree();
+	show(r);
+	cout<<endl;
 	Solution s;
 	show(s.convertBST(r));
+	cout<<endl;
 	return 0;
 }

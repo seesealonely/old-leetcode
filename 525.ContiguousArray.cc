@@ -16,20 +16,13 @@ Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal numb
 Note: The length of the given binary array will not exceed 50,000. 
 */
 
-#include"head.h"
+#include"525.ContiguousArray.h"
 
-class Solution {
-public:
-    int findMaxLength(vector<int>& nums) {
- 	map<int,int> m;
-	m[0]=-1;
-	int res=0,sum=0;
-	for(int i=0;i<nums.size();++i)
-	{
-	sum+=(nums[i]==0)?-1:1;
-		if(m[sum]>=0) res=max(res,i-m[sum]);
-		else m[sum]=i;			
-	}       
-	return res;
-    }
-};
+int main()
+{
+	int vv[]={0,1,0,1,1,1,0,1,0,1,0,1};
+	vector<int> v(vv,vv+12);
+	Solution s;
+	cout<<s.findMaxLength(v)<<endl;
+	return 0;
+}

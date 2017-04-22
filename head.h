@@ -1,6 +1,8 @@
 #include<iostream>
 #include<vector>
 #include<string>
+#include<cstring>
+#include<cstdio>
 #include<map>
 #include<algorithm>
 #include<cctype>
@@ -8,6 +10,7 @@
 #include<cmath>
 #include<sstream>
 #include<stack>
+#include<queue>
 using namespace std;
 struct ListNode {
 	int val;
@@ -79,7 +82,7 @@ TreeNode *buildTree()
 		root->left=buildTree();
 		root->right=buildTree();
 	}	
-	return input>=9?NULL:root;
+	return input>=80?NULL:root;
 }
 void  show(struct TreeNode *root)
 {
