@@ -27,10 +27,29 @@ Output: [-34, -14, -10, -10, 10]
 class Solution {
 	public:
 		vector<int> diffWaysToCompute(string input) {
-
+			return dfs(input);
 		}
-		void dfs(string s,int beg,int end)
+		vector<int>  dfs(string s)
 		{
-		
+			vector<int> res;
+			for(unsigned int i=0;i<s.size();++i)
+				if(ispunct(s[i]))
+				{
+					vector<int>  preH=dfs(s.substr(0,i));
+					vector<int>  nextH=dfs(s.substr(i+1));
+					for(unsigned int j=0;j<preH.size();++j)
+						for(unsigned int k=0;k<nextH.size();++k)
+						{
+							if(s[i]=='+')
+								res.push_back(preH[j]+nextH[k]);
+							else if(s[i]=='-')
+								res.push_back(preH[j]-nextH[k]);
+							else if(s[i]=='*')
+								res.push_back(preH[j]*nextH[k]);
+						}
+				}
+			if(res.empty())
+				res.push_back(atoi(s.c_str()));
+			return res;
 		}
 };

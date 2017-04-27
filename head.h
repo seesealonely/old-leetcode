@@ -91,6 +91,11 @@ void  show(struct TreeNode *root)
 	show(root->left);
 	show(root->right);
 }
+void show(vector<TreeNode *> res)
+{
+for(unsigned int i=0;i<res.size();++i)
+	show(res[i]),cout<<endl;
+}
 void show(struct ListNode *head)
 {
 	int i=0;
@@ -110,21 +115,21 @@ void show(struct ListNode *head)
 }
 void show(vector<int> v)
 {
-	for(int i=0;i<v.size();++i)
+	for(unsigned int i=0;i<v.size();++i)
 		cout<<v[i]<<"　";
 	cout<<endl;
 }
 void show(vector<string> v)
 {
-	for(int i=0;i<v.size();++i)
+	for(unsigned int i=0;i<v.size();++i)
 		cout<<v[i]<<"　";
 	cout<<endl;
 }
 void show(vector<vector<int> > v)
 {
-	for(int i=0;i<v.size();++i)
+	for(unsigned int i=0;i<v.size();++i)
 	{
-		for(int j=0;j<v[i].size();++j)
+		for(unsigned int j=0;j<v[i].size();++j)
 			cout<<v[i][j]<<"　";
 	cout<<endl;
 	}
