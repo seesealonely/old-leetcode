@@ -12,6 +12,9 @@
 #include<sstream>
 #include<stack>
 #include<queue>
+#ifdef C11
+#include<unordered_set>
+#endif
 using namespace std;
 struct ListNode {
 	int val;
@@ -115,6 +118,12 @@ void show(struct ListNode *head)
 	//	else exit(0);
 }
 void show(vector<int> v)
+{
+	for(unsigned int i=0;i<v.size();++i)
+		cout<<v[i]<<"　";
+	cout<<endl;
+}
+void show(vector<double> v)
 {
 	for(unsigned int i=0;i<v.size();++i)
 		cout<<v[i]<<"　";
