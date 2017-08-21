@@ -29,12 +29,20 @@ Note: Recursive solution is trivial, could you do it iteratively?
 class Solution {
 	public:
 		vector<int> postorderTraversal(TreeNode* root) {
-		/*	vector<int> res;
-			dfs(root,res);
-			return res; 
-*/
-
-			return iterator(root);
+			vector<int> res;
+			if(!root) return res;
+			stack<TreeNode *> s;
+			s.push(root);
+			TreeNode *p=NULL;
+			while(!s.empty())
+			{
+				p=s.top();
+				s.pop();
+				res.insert(res.begin(),p->val);
+				if(p->left) s.push(p->left);
+				if(p->right) s.push(p->right);
+			}
+			return res;
 		}
 	private:
 		void dfs(TreeNode *root,vector<int> &res)
@@ -63,12 +71,12 @@ class Solution {
 						cur=top->right;
 					else
 					{
-					res.push_back(top->val);
-					last=top;
-					st.pop();
+						res.push_back(top->val);
+						last=top;
+						st.pop();
 					}
 				}
 			}
-				return res;
+			return res;
 		}
 };

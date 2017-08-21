@@ -19,7 +19,12 @@ Note:
 
 int main()
 {
+	int vv[]={1,2,2,4};
+	vector<int> v(vv,vv+4);
+	int vv1[]={3,3,1};
+	vector<int> v1(vv1,vv1+3);
 	Solution s;
-
+	show(s.findErrorNums(v));
+	show(s.findErrorNums(v1));
 	return 0;
 }
