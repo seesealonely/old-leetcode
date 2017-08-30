@@ -21,7 +21,7 @@ return [2], since 2 happens twice, however -5 only occur once.
 
 Note: You may assume the sum of values in any subtree is in the range of 32-bit signed integer. 
 */
-
+#define C11
 #include"head.h"
 
 /**
@@ -36,6 +36,22 @@ Note: You may assume the sum of values in any subtree is in the range of 32-bit 
 class Solution {
 public:
     vector<int> findFrequentTreeSum(TreeNode* root) {
-        
+	unordered_map<int,int> h;
+	int maxi=0;
+	count(root,h,maxi);        
+	vector<int> maxSums;
+	for(std::unordered_map<int,int>::iterator p=h.begin();p!=h.end();++p)
+	if(maxi==p->second) maxSums.push_back(p->first);	
+	return maxSums;
     }
+int count(TreeNode *root,unordered_map<int,int> & h,int & maxi)
+	{
+		if(!root) return 0;
+		int sum=root->val;
+		sum+=count(root->left,h,maxi);
+		sum+=count(root->right,h,maxi);
+		++h[sum];
+		maxi=max(maxi,h[sum]);
+		return sum;
+	}
 };

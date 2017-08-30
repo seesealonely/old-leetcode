@@ -37,6 +37,6 @@ int main()
 {
 	TreeNode *r=buildTree();
 	Solution s;
-	s.findFrequentTreeSum(r);
+	show(s.findFrequentTreeSum(r));
 	return 0;
 }
