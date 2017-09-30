@@ -136,6 +136,13 @@ void show(vector<string> v)
 		cout<<v[i]<<"　";
 	cout<<endl;
 }
+void show(vector<vector<string> > v)
+{
+	for(unsigned int i=0;i<v.size();++i)
+	for(unsigned int j=0;j<v.size();++j)
+		cout<<v[i][j]<<"　";
+	cout<<endl;
+}
 void show(vector<vector<int> > v)
 {
 	for(unsigned int i=0;i<v.size();++i)
