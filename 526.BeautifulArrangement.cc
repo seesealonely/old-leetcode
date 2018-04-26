@@ -35,6 +35,6 @@ Note:
 int main()
 {
 	Solution s;
-	s.countArrangement();
+	s.countArrangement(1);
 	return 0;
 }
