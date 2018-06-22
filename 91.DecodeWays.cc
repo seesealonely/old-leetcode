@@ -20,5 +20,15 @@ int main()
 {
 	Solution s;
 	cout<<s.numDecodings("12")<<endl;
+	cout<<"input"<<"226"<<endl;
+	cout<<s.numDecodings("226")<<endl;
+	cout<<"input"<<"0"<<endl;
+	cout<<s.numDecodings("0")<<endl;
+	cout<<"input"<<"100"<<endl;
+	cout<<s.numDecodings("100")<<endl;
+	cout<<"input"<<"10"<<endl;
+	cout<<s.numDecodings("10")<<endl;
+	cout<<"input"<<"012"<<endl;
+	cout<<s.numDecodings("012")<<endl;
 	return 0;
 }

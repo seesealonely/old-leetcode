@@ -37,7 +37,8 @@ int firstWay(vector<int> &nums,int target)
 }
 int origindp(vector<int> & nums,int target)
 {
-	vector<vector<int> > dp(nums.size()+1,vector<int> (target+1,0));
+int len=nums.size();
+	vector<vector<int> > dp(len+1,vector<int> (target+1,0));
 
 	for(int i=0;i<nums.size()+1;i++)
 		dp[i][0]=1;

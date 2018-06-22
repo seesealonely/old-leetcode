@@ -13,6 +13,9 @@
 
    The number of ways decoding "12" is 2. 
    */
+
+#include"head.h"
+/*
 int opmizition(string s)
 {
 	int ir1=1,ir2=1;
@@ -24,20 +27,28 @@ int opmizition(string s)
 	}
 	return ir1;
 }
+*/
 int origin(string s)
 {
-	vector<int> dp(s.size(),0);
-	dp[0]=s[0]!=0?1:0;
-	dp[1]=s[1]!=0?1:0;
-	for(int i=2;i<=s.size();i++)
+	int len=s.size();
+	vector<int> dp(len,0);
+	dp[0]=s[0]!='0'?1:0;
+	if(!dp[0]) return 0;
+	for(int i=1;i<=s.size();i++)
 	{
-		if(s[i-2]=='1'||s[i-2]=='2'&&s[i-1]<='6')
+		if((s[i-1]=='1'||s[i-1]=='2')&&(s[i]<='6'&&s[i]>'0'))
+			dp[i]=dp[i-1]+1;
+		else if((s[i-1]>'2'||s[i-1]=='0')&&s[i]=='0')
+			return 0;
+		else if((s[i]>='1'&&s[i]<='9')||((s[i-1]=='1'||s[i-1]=='2')&&s[i]=='0'))
+			dp[i]=dp[i-1];
 	}
+	return dp[len-1];
 }
-#include"head.h"
 
 class Solution {
 	public:
 		int numDecodings(string s) {
+	return origin(s);
 		}
 };
