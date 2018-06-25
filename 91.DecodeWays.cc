@@ -30,5 +30,9 @@ int main()
 	cout<<s.numDecodings("10")<<endl;
 	cout<<"input"<<"012"<<endl;
 	cout<<s.numDecodings("012")<<endl;
+	cout<<"input"<<"17"<<endl;
+	cout<<s.numDecodings("17")<<endl;
+	cout<<"input"<<"27"<<endl;
+	cout<<s.numDecodings("27")<<endl;
 	return 0;
 }

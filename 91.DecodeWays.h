@@ -31,19 +31,18 @@ int opmizition(string s)
 int origin(string s)
 {
 	int len=s.size();
-	vector<int> dp(len,0);
+	vector<int> dp(len+1,0);
 	dp[0]=s[0]!='0'?1:0;
+	dp[1]=s[1]!='0'?1:0;
 	if(!dp[0]) return 0;
-	for(int i=1;i<=s.size();i++)
+	for(int i=2;i<len+1;i++)
 	{
-		if((s[i-1]=='1'||s[i-1]=='2')&&(s[i]<='6'&&s[i]>'0'))
-			dp[i]=dp[i-1]+1;
-		else if((s[i-1]>'2'||s[i-1]=='0')&&s[i]=='0')
-			return 0;
-		else if((s[i]>='1'&&s[i]<='9')||((s[i-1]=='1'||s[i-1]=='2')&&s[i]=='0'))
-			dp[i]=dp[i-1];
+		if(s[i-1]<='9'&&s[i-1]>='1')
+		dp[i]+=dp[i-1];
+		if((s[i-2]=='1')||(s[i-2]=='2'&&s[i-1]<='6'))
+		dp[i]+=dp[i-2];
 	}
-	return dp[len-1];
+	return dp[len];
 }
 
 class Solution {
