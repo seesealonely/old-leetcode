@@ -38,14 +38,10 @@ class Solution {
 			for(int i=0;i<s.size();i++)
 				dp[i][i]=1;
 			for(int i=1;i<s.size();i++)
-				dp[i-1][i]=s[i-1]==s[i]?2:0;
+				dp[i-1][i]=s[i-1]==s[i]?2:1;
 			for(int l=2;l<s.size();l++)
-				for(int i=0;i<s.size()-l;i++)
-					if(s[i]==s[i+l])
-						dp[i][i+l]=max(max(dp[i+1][i+l],dp[i][i+l-1]),dp[i+1][i+l-1]+2);	
-					else
-						dp[i][i+l]=max(max(dp[i+1][i+l],dp[i][i+l-1]),dp[i+1][i+l-1]);
-			//return dp[0][s.size()-1];
+				for(int i=0;i+l<s.size();i++)
+						dp[i][i+l]=max(max(dp[i+1][i+l],dp[i][i+l-1]),dp[i+1][i+l-1]+(s[i]==s[i+l]?2:0));	
 			return dp.front().back();
 		}
 };
