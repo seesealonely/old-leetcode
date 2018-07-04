@@ -21,10 +21,10 @@ int firstWay(vector<int> &A,vector<int> & B)
 {
 	int a=A.size()+1,b=B.size()+1,res=0;
 	vector< vector<int > > dp(a,vector<int>(b,0)); 
-	for(int i=0;i<a-1;i++)
-	for(int j=0;j<b-1;j++)
-		if(A[i]==B[j])
-		res=max(res,dp[i+1][j+1]=A[i]==B[j]?dp[i][j]+1:0);
+	for(int i=1;i<a;i++)
+	for(int j=1;j<b;j++)
+		if(A[i-1]==B[j-1])
+		res=max(res,dp[i][j]=(A[i-1]==B[j-1]?dp[i-1][j-1]+1:0));
 	return res;
 }
 class Solution {

@@ -25,21 +25,13 @@ The given starting pixel will satisfy 0 <= sr < image.length and 0 <= sc < image
 The value of each color in image[i][j] and newColor will be an integer in [0, 65535].
 */
 
-#include"head.h"
+#include"733.FloodFill.h"
 
-void  dfs(vector<vector<int> >& image, int i,int j, int newColor,int color) {
-	if(i<0||j<0||i>=image.size()||j>=image[0].size()||image[i][j]!=color) return;
-	image[i][j]=newColor;
-	dfs(image,i-1,j,newColor,color);
-	dfs(image,i+1,j,newColor,color);
-	dfs(image,i,j-1,newColor,color);
-	dfs(image,i,j+1,newColor,color);
+int main()
+{
+	vector<vector<int> > v(3,vector<int>(3,1));
+	v[1][2]=v[2][1]=0;
+	Solution s;
+	show(s.floodFill(v,1,1,2));
+	return 0;
 }
-class Solution {
-public:
-    vector<vector<int> > floodFill(vector<vector<int> >& image, int sr, int sc, int newColor) {
-	if(image[sr][sc]!=newColor)
-	dfs(image,sr,sc,newColor,image[sr][sc]);
-	return image;
-    }
-};

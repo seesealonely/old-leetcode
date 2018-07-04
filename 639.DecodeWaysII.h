@@ -35,6 +35,7 @@ using namespace std;
 
 int dp(string s)
 {
+/*
 	int len=s.size();
 	vector<int> dp(len+1,0);
 	dp[0]=s[0]==0?0:1;
@@ -48,8 +49,8 @@ int dp(string s)
 		if(s[i-2]=='1'||(s[i-2]=='2'&&s[i-1]<='6'&&s[i-1]>='1'))
 		dp[i]+=dp[i-2];
 		else if(s[i-1]=='*')
-			
 	}
+*/			
 }
 class Solution {
 public:
