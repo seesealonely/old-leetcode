@@ -37,7 +37,7 @@ int main()
 	int vv1[]={1,0,1,-4,-3};	
 	vector<int> v1(vv1,vv1+4);
 	Solution s;
-	s.find132pattern(v);
-	s.find132pattern(v1);
+	cout<<s.find132pattern(v)<<endl;
+	cout<<s.find132pattern(v1)<<endl;
 	return 0;
 }

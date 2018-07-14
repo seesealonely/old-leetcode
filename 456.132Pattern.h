@@ -29,18 +29,19 @@ Explanation: There are three 132 patterns in the sequence: [-1, 3, 2], [-1, 3, 0
 
 */
 #include"head.h"
+bool bruteForce(vector<int> & nums)
+{
+	for(int i=0;i<nums.size()-2;i++)	
+	for(int j=i+1;j<nums.size()-1;j++)	
+	for(int k=j+1;k<nums.size();k++)	
+		if(nums[j]>nums[k]&&nums[k]>nums[i])
+		return true;
+	return false;
+}
 
 class Solution {
 public:
     bool find132pattern(vector<int>& nums) {
-	if(nums.size()<3) return false;
- 	int min=INT_MAX,max=INT_MIN,i;
-	for(i=0;i<nums.size();++i)
-	{
-		if(nums[i]<min) min=nums[i];
-		if(nums[i]>max) max=nums[i];
-		if(min!=max&&nums[i]>min&&nums[i]<max){cout<<min<<" "<<nums[i]<<" "<<max<<endl; return true;}
-	}       cout<<min<<" "<<nums[i]<<" "<<max<<endl;
-	return false;
+	return bruteForce(nums);
     }
 };
