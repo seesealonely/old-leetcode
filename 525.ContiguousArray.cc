@@ -24,5 +24,8 @@ int main()
 	vector<int> v(vv,vv+12);
 	Solution s;
 	cout<<s.findMaxLength(v)<<endl;
+	v.clear();
+	v.push_back(0);v.push_back(1);
+	cout<<s.findMaxLength(v)<<endl;
 	return 0;
 }
