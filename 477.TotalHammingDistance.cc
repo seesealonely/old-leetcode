@@ -26,6 +26,6 @@ int main()
 {
 	vector<int> v;
 	Solution s;
-	s.totalHammingDistance(v);
+	cout<<s.totalHammingDistance(v)<<endl;
 	return 0;
 }

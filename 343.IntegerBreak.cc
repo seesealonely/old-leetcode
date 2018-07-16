@@ -11,5 +11,7 @@ Note: You may assume that n is not less than 2 and not larger than 58
 int main()
 {
 	Solution s;
+	cout<<s.integerBreak(2)<<endl;
+	cout<<s.integerBreak(10)<<endl;
 	return 0;
 }
