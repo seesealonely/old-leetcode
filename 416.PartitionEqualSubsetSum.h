@@ -26,7 +26,7 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 
 #include"head.h"
 
-bool firstWay(vector<int>  & nums)
+bool dp(vector<int>  & nums)
 {
 	int sum=0,len=nums.size();
 	for(int i=0;i<nums.size();i++)
@@ -38,10 +38,10 @@ bool firstWay(vector<int>  & nums)
 	for(int i=1;i<=len;i++)
 	for(int j=1;j<=sum;j++)
 	{
-		dp[i][j]=dp[i-1][j];
+	//	dp[i][j]=dp[i-1][j];
 		if(j>=nums[i-1])
 		{
-			dp[i][j]=dp[i][j]||dp[i-1][j-nums[i-1]];		
+			dp[i][j]=dp[i-1][j]||dp[i-1][j-nums[i-1]];		
 		}	
 	}
 	return dp[len][sum];
@@ -49,6 +49,6 @@ bool firstWay(vector<int>  & nums)
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
-	return firstWay(nums);        
+	return dp(nums);        
     }
 };
