@@ -24,28 +24,23 @@ Given the above grid, return 0.
 Note: The length of each dimension in the given grid does not exceed 50. 
 */
 
-#include"head.h"
+#include"695.MaxAreaofIsland.h"
 
-int area(vector<vector<int> >& grid,vector<vector<int> >  &visit,int r,int c) {
-	if(r<0||c<0||r>=grid.size()||c>=grid[0].size()||visit[r][c]||!grid[r][c])
-		return 0;
-	visit[r][c]=true;
-		return	1+area(grid,visit,r+1,c)+area(grid,visit,r-1,c)+area(grid,visit,r,c+1)+area(grid,visit,r,c-1);
-}
-int dfs(vector<vector<int> >& grid) 
+int main()
 {
-	if(grid.empty()) return 0;
-	vector<vector<int> > v(grid.size(),vector<int>(grid[0].size(),false));
-	int res=0;
-	for(int i=0;i<grid.size();i++)
-	for(int j=0;j<grid[i].size();j++)
-	if(grid[i][j])
-	res=max(res,area(grid,v,i,j));
-	return res;
+	int e1[8][13]={{0,0,1,0,0,0,0,1,0,0,0,0,0},
+ {0,0,0,0,0,0,0,1,1,1,0,0,0},
+ {0,1,1,0,1,0,0,0,0,0,0,0,0},
+ {0,1,0,0,1,1,0,0,1,0,1,0,0},
+ {0,1,0,0,1,1,0,0,1,1,1,0,0},
+ {0,0,0,0,0,0,0,0,0,0,1,0,0},
+ {0,0,0,0,0,0,0,1,1,1,0,0,0},
+ {0,0,0,0,0,0,0,1,1,0,0,0,0}};
+	vector<vector<int> > v(8,vector<int>(13,0));
+	for(int i=0;i<8;i++)
+	for(int j=0;j<13;j++)
+		if(e1[i][j]) v[i][j]=e1[i][j];
+	Solution s;
+	cout<<s.maxAreaOfIsland(v)<<endl;
+	return 0;
 }
-class Solution {
-public:
-    int maxAreaOfIsland(vector<vector<int> >& grid) {
-	return dfs(grid);	
-    }
-};
