@@ -72,7 +72,7 @@ char way3(vector<char>& letters, char target)
 	while(lo<hi)
 	{
 	int mi=lo+(hi-lo)/2;
-	if(letters[mi]<=target) lo=mi+1;
+	if(letters[mi]>target) lo=mi+1;
 	else hi=mi;
 	}
 	return  letters[lo%letters.size()];
