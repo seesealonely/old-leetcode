@@ -25,6 +25,7 @@ Note:
 int main()
 {
 	vector<int> v;
+	v.push_back(4);	v.push_back(14);v.push_back(2);
 	Solution s;
 	cout<<s.totalHammingDistance(v)<<endl;
 	return 0;
