@@ -32,6 +32,7 @@ bool dp(vector<int>  & nums)
 	for(int i=0;i<nums.size();i++)
 	sum+=nums[i];
 	if(sum%2) return false;
+	sum/=2;
 	vector<vector<bool > > dp(len+1,vector<bool>(sum+1,false));
 	for(int i=0;i<=len;i++)
 	dp[i][0]=true;
