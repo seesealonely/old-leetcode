@@ -39,7 +39,6 @@ Output:
 
 */
 
-#include"head.h"
 
 /**
  * Definition for a binary tree node.
@@ -55,7 +54,7 @@ Output:
 
 int main()
 {
-	struct	TreeNode *r=buildTree();
+//	struct	TreeNode *r=buildTree();
 	Solution s;
 	return 0;
 }

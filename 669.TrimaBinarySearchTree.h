@@ -39,7 +39,6 @@ Output:
 
 */
 
-#include"head.h"
 
 /**
  * Definition for a binary tree node.
@@ -55,12 +54,12 @@ Output:
 
 class Solution {
 public:
-TreeNode* trimBST(TreeNode* root, int L, int R) {
+//TreeNode* trimBST(TreeNode* root, int L, int R) {
 /*
  	if(!root) return NULL;       
 	if(root->val>R) root->left=trimBST(root->left,L,R);
 	if(root->val<L) root->right=trimBST(root->right,L,R);
 	return root;	
 */
-    }
+ //   }
 };

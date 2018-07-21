@@ -181,3 +181,9 @@ void  show(struct TreeLinkNode *root)
 	show(root->left);
 	show(root->right);
 }
+void show(vector<char> s)
+{
+	for(int i=0;i<s.size();i++)
+	cout<<s[i];
+	cout<<endl;
+}

@@ -30,8 +30,8 @@ Note:
 
 class NumMatrix {
 public:
-    NumMatrix(vector<vector<int> > matrix):dp(matrix.size()+1,vector<int>(matrix[0].size()+1,0)) {
-  if(matrix.empty()||!matrix.size()||!matrix[0].size())
+    NumMatrix(vector<vector<int> > matrix) {
+   if(matrix.empty()||!matrix.size()||!matrix[0].size())
 	return ;
 	int row=matrix.size(),col=matrix[0].size();
 //	dp=new int[row+1][col+1];
@@ -41,13 +41,13 @@ public:
     }
     
     int sumRegion(int row1, int col1, int row2, int col2) {
-	int iMin=min(row1,row2);
+        int iMin=min(row1,row2);
 	int iMax=max(row1,row2);
 	int jMin=min(col1,col2);
 	int jMax=max(col1,col2);
        	return (int)(dp[iMax+1][jMax+1]-dp[iMax+1][jMin]-dp[iMin][jMax+1]+dp[iMin][jMin]); 
     }
-private:
+    private:
  vector<vector<int> > dp;
 };
 

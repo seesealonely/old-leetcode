@@ -20,24 +20,24 @@ Note:
     You may assume the sum of all the numbers is in the range of a signed 32-bit integer.
 */
 
-#include"head.h"
 
-class Solution {
-public:
-    bool checkSubarraySum(vector<int>& nums, int k) {
-	if(nums.size()<=1) return false;
-	for(int i=0;i<nums.size();i++)
-	if(nums[i]==0&&nums[i+1]==0) return true;
-	if(!k) return false;
-	if(k<0) k=-k;
- 	map<int,int> m; m[0]=-1;
-	int mod=0,pre=0;
-	for(int i=0;i<nums.size();i++)
-	{
-		mod=(nums[i]+mod)%k;
-		if(m.count(mod)&&(i-pre)) return true;
-		m[mod]=i;
-	}       
-	return false;
-    }
-};
+#include"523.ContinuousSubarraySum.h"
+
+int main()
+{
+	int e1[]={23, 2, 4, 6, 7};
+	vector<int> v(e1,e1+5);
+	Solution s;
+	cout<<s.checkSubarraySum(v,6)<<endl;
+	cout<<s.checkSubarraySum(v,0)<<endl;
+	v.clear();
+	v.push_back(0);	v.push_back(0);
+	cout<<s.checkSubarraySum(v,0)<<endl;
+	v.clear();
+	v.push_back(1);	v.push_back(2);v.push_back(3);
+	cout<<s.checkSubarraySum(v,4)<<endl;
+	v.clear();
+	v.push_back(1);	v.push_back(1);
+	cout<<s.checkSubarraySum(v,2)<<endl;
+	return 0;
+}
