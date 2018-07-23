@@ -19,9 +19,36 @@ Note:
 
 #include"head.h"
 
+void dfs(int begin,vector<string> &res,string &s)
+{
+	if(begin==s.size())
+	{
+	res.push_back(s);
+	return;
+	}
+	if(isalpha(s[begin]))
+	{
+		if(isupper(s[begin]))
+		{
+		dfs(begin+1,res,s);
+			s[begin]+=32;
+		dfs(begin+1,res,s);
+		}
+		else
+		{
+		dfs(begin+1,res,s);
+			s[begin]-=32;
+		dfs(begin+1,res,s);
+		}
+	}
+	else
+		dfs(begin+1,res,s);
+}
 class Solution {
 public:
     vector<string> letterCasePermutation(string S) {
-        
+       vector<string> res;
+	dfs(0,res,S);
+	return res;
     }
 };
