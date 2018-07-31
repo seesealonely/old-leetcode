@@ -49,17 +49,23 @@ bool vowelorNot(char c)
 class Solution {
 public:
     string toGoatLatin(string S) {
-/*
-	vector<string> v=S.split(" ");        
-	for(int i=0;i<v.size();i++)
-		if(v[i].empty()&&vowelorNot(v[i][0])
-			v[i]=v[i]+"ma"+string s(i+1,a);
+	string res,word,a;
+	int anum=0;
+	for(int i=0;i<S.size();i++)
+	{	
+		while(S[i]!=' ') word+=S[i++];
+		if(vowelorNot(word[0]))
+		;
 		else
 		{
-			v[i]=v[i][0]+"ma"+string s(i+1,a);
-			v.erase(v[i][0]);
+			word+=word[0];
+			word.erase(0,1);
 		}	
-	return  string(v.begin(),v.end());
-*/
+		word=word+"ma"+(a+="a");
+		res+=word+" ";	
+		word.clear();
+	}
+	res.erase(res.size()-1);
+	return res;
     }
 };

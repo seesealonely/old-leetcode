@@ -17,7 +17,7 @@ public:
 inline	void swap(vector<vector<int> > &v,int i,int  j)
 	{
 		int tmp=v[i][j];
-		v[i][j]=v[i][v[i].size()-j];
-		v[i][v.size()-j]=tmp;
+		v[i][j]=v[i][v[i].size()-j-1];
+		v[i][v.size()-j-1]=tmp;
 	}
 };

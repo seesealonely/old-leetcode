@@ -19,10 +19,9 @@ The boundaries of each input argument are 1 <= left <= right <= 10000.
 
 #include"728.SelfDividingNumbers.h"
 
-class Solution {
-public:
-    vector<int> selfDividingNumbers(int left, int right) {
-        
-    }
-};
-
+int main()
+{
+	Solution s;
+	show(s.selfDividingNumbers(1,22));
+	return 0;
+}

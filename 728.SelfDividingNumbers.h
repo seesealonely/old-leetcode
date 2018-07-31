@@ -19,9 +19,22 @@ The boundaries of each input argument are 1 <= left <= right <= 10000.
 
 #include"head.h"
 
+vector<int> bruteForce(int l,int r)
+{
+	int num;
+	vector<int> res;
+	for(int i=l;i<r+1;i++)
+	{
+		for(num=i;num;num/=10)
+		if((num%10)&&!(i%(num%10)));
+		else break;
+		if(!num) res.push_back(i);
+	}
+	return res;
+}
 class Solution {
 public:
     vector<int> selfDividingNumbers(int left, int right) {
-        
+	return bruteForce(left,right);        
     }
 };
