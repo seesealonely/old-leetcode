@@ -22,8 +22,8 @@ Note:
     The length of the given array is in range [2, 10,000], and will be even.
     The number in given array is in range [-100,000, 100,000].
 */
-#ifndef C11
-#define C11
+#ifndef c11
+#define c11
 #endif
 #include"head.h"
 

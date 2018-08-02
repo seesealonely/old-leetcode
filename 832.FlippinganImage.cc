@@ -1,7 +1,7 @@
 /*
 */
 
-#include"832.h"
+#include"832.FlippinganImage.h"
 
 int main()
 {

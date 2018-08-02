@@ -11,7 +11,7 @@ Return:
 ["AAAAACCCCC", "CCCCCAAAAA"].
 
 */
-#define C11
+#define c11
 #include"head.h"
 using namespace std;
 class Solution {
@@ -24,7 +24,7 @@ class Solution {
 			while(begin<slen)
 			{
 				index=(index<<3)&0x3fffffff|(s[begin++]&7);
-				if(map[index]++==1)
+				if((map[index]++)==1)
 				 res.push_back(s.substr(begin-10,10));	
 			}
 			return res;

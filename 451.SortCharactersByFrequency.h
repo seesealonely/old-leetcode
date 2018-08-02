@@ -38,7 +38,7 @@ Explanation:
 Note that 'A' and 'a' are treated as two different characters.
 
 */
-#define C11
+#define c11
 #include"head.h"
 
 class Solution {

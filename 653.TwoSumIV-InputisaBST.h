@@ -27,7 +27,7 @@ Target = 28
 
 Output: False
 */
-
+#define c11
 #include"head.h"
 
 /**

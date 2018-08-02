@@ -18,27 +18,13 @@ Note:
 
 */
 
-#include"head.h"
+#include"795.NumberofSubarrayswithBoundedMaximum.h"
 
-class Solution {
-public:
-    int numSubarrayBoundedMax(vector<int>& A, int L, int R) {
-	int left=0,count=0,res=0;        
-	for(int i=0;i<A.size();i++)
-	{
-		if(A[i]>=L&&R>=A[i])
-		{
-			res+=i-left+1;
-			count=i-left+1;
-		}
-		else if(A[i]<L)
-			res+=count;
-		else 
-		{
-			count=0;
-			left=i+1;
-		}
-	}
-	return res;
-    }
-};
+int main()
+{
+	int e1[]={2, 1, 4, 3};
+	vector<int> v(e1,e1+4);
+	Solution s;
+	cout<<s.numSubarrayBoundedMax(v,2,3)<<endl;
+	return 0;
+}
