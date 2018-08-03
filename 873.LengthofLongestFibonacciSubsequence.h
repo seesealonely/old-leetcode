@@ -41,8 +41,22 @@ class Solution {
 public:
     int lenLongestFibSubseq(vector<int>& A) {
 	map<int,int> m;
+	vector<vector<int> > dp(A.size(),vector<int>(A.size(),1));
+	int res=0,add=0;
 	for(int i=0;i<A.size();i++)
-		for(int j=i+1;j<A.size();i++)
-		        
+		m[A[i]]=i;
+	for(int i=0;i<A.size();i++)
+		for(int j=i+1;j<A.size();)
+		{
+			add=A[i]+A[j];
+		       	if(m[add])
+			{
+//				dp[j][m[add]]++;
+				res=max(res,++dp[i][m[add]-m[i]]);		
+			j=m[add];
+			} 
+			else j++;
+		}
+	return res;
     }
 };

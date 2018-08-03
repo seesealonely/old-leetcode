@@ -41,6 +41,20 @@ Note:
 class Solution {
 public:
     int scoreOfParentheses(string S) {
-        
+	int res=0,depth=0;
+	char c='\0';	
+	for(int i=0;i<S.size();i++)
+	{
+		if(S[i]=='(')
+		 depth++;	
+		else
+		{
+			depth--;
+			if(c=='(')
+			res+=1<<depth;
+		}
+		c=S[i];
+	}        
+	return res;
     }
 };

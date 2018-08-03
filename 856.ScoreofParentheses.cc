@@ -41,6 +41,9 @@ Note:
 int main()
 {
 	Solution s;
-	s.
+	cout<<s.scoreOfParentheses("()")<<endl;
+	cout<<s.scoreOfParentheses("(())")<<endl;
+	cout<<s.scoreOfParentheses("()()")<<endl;
+	cout<<s.scoreOfParentheses("(()(()))")<<endl;
 	return 0;
 }

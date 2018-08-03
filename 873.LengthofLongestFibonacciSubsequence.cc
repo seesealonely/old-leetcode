@@ -39,7 +39,13 @@ Note:
 
 int main()
 {
+	vector<int> v;
+	for(int i=1;i<9;i++)
+	v.push_back(i);
 	Solution s;
-	cout<<s.lenLongestFibSubseq()<<endl;
+	cout<<s.lenLongestFibSubseq(v)<<endl;
+	v.clear();
+	v.push_back(1);v.push_back(3);v.push_back(7);v.push_back(11);v.push_back(12);v.push_back(14);v.push_back(18);
+	cout<<s.lenLongestFibSubseq(v)<<endl;
 	return 0;
 }
