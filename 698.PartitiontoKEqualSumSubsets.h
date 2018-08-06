@@ -19,11 +19,21 @@ int dp(vector<int> &nums,int k)
 {
 	
 }
-int dfs(vector<int> &nums,int k)
+bool dfs(vector<int> &nums,int k,int target,int begin,int add,vector<bool> visit)
 {
-	
+	if(k==1) return true;
+	if(target==add) 
+		dfs(nums,k-1,target,0,0,visit);	
+	for(int i=begin;i<nums.size();i++)
+	{
+		visit[i]=true;
+		if(dfs(nums,k-1,target,i+1,add+nums[i],visit))
+		return true;	
+		visit[i]=false;
+	}
+	return false;
 }
-int dfsmain(vector<int> &nums,int k)
+bool dfsmain(vector<int> &nums,int k)
 {
 	int sum=0;
 	for(int i=0;i<nums.size();i++)
@@ -31,15 +41,11 @@ int dfsmain(vector<int> &nums,int k)
 	if(nums.size()<k||sum%k)
 		return false;
 	vector<bool> visit(nums.size(),false);	
-	for(int i=0;i<nums.size();i++)
-	{
-		visit=true;
-		dfs(nums,k-1,i+1,	
-	}
+	return	dfs(nums,k,sum/k,0,0,visit);	
 }
 class Solution {
 public:
     bool canPartitionKSubsets(vector<int>& nums, int k) {
-        
+	return dfsmain(nums,k);        
     }
 };
