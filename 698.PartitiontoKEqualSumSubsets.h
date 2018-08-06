@@ -19,6 +19,24 @@ int dp(vector<int> &nums,int k)
 {
 	
 }
+int dfs(vector<int> &nums,int k)
+{
+	
+}
+int dfsmain(vector<int> &nums,int k)
+{
+	int sum=0;
+	for(int i=0;i<nums.size();i++)
+	sum+=nums[i];
+	if(nums.size()<k||sum%k)
+		return false;
+	vector<bool> visit(nums.size(),false);	
+	for(int i=0;i<nums.size();i++)
+	{
+		visit=true;
+		dfs(nums,k-1,i+1,	
+	}
+}
 class Solution {
 public:
     bool canPartitionKSubsets(vector<int>& nums, int k) {
