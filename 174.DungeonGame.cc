@@ -21,20 +21,20 @@ Notes:
 
 */
 
-#include"head.h"
+#include"174.DungeonGame.h"
 
-class Solution {
-public:
-    int calculateMinimumHP(vector<vector<int> >& dungeon) {
- 	int row=dungeon.size(),col=dungeon[0].size(),temp;
-	vector<vector<int> > dp(row+1,vector<int>(col+1,INT_MAX));
-	dp[row][col-1]=dp[row-1][col]=1;
-	for(int i=row-1;i>=0;--i)
-		for(int j=col-1;j>=0;--j)
-		{
-		temp=min(dp[i+1][j],dp[i][j+1])-dungeon[i][j];
-		dp[i][j]=temp<=0?1:temp;
-		}
-	return dp[0][0];
-    }
-};
+int main()
+{
+	vector<vector<int> > v(3,vector<int>(3,0));
+	int e1[3][3]={-2,-3,3,-5,-10,1,10,30,-5};
+	for(int i=0;i<3;i++)
+	for(int j=0;j<3;j++)
+	v[i][j]=e1[i][j];
+	Solution s;
+	cout<<s.calculateMinimumHP(v)<<endl;
+	v.clear();
+	v.push_back({});
+	v[0].push_back(-1);v[0].push_back(1);
+	cout<<s.calculateMinimumHP(v)<<endl;
+	return 0;
+}
