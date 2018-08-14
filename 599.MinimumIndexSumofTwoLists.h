@@ -35,12 +35,16 @@ public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
 	map<string,int> m;
 	vector<string> r;
-	int res=INT_MAX;
+	int index=INT_MAX;
+	map<string,int>::iterator res;
 	for(int i=0;i<list1.size();++i)
 	m[list1[i]]=i+1;
 	for(int i=0;i<list2.size();++i)
-	if(m[list2[i]]) {res=m[list2[i]];break;}	
-	r.push_back(list1[res-1]);
+	if(m[list2[i]]) 
+		m[list2[i]]+=i;
+	for(map<string,int>::iterator it=m.begin();it!=m.end();it++)
+	if(it->second<index) index=it->second,res=it;	
+	r.push_back(res->first);
 	return r;
     }
 };
