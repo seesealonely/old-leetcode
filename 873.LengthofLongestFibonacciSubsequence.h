@@ -8,8 +8,6 @@ Given a strictly increasing array A of positive integers forming a sequence, fin
 
 (Recall that a subsequence is derived from another sequence A by deleting any number of elements (including none) from A, without changing the order of the remaining elements.  For example, [3, 5, 8] is a subsequence of [3, 4, 5, 6, 7, 8].)
 
- 
-
 Example 1:
 
 Input: [1,2,3,4,5,6,7,8]
@@ -24,9 +22,7 @@ Output: 3
 Explanation:
 The longest subsequence that is fibonacci-like:
 [1,11,12], [3,11,14] or [7,11,18].
-
  
-
 Note:
 
     3 <= A.length <= 1000
@@ -41,22 +37,26 @@ class Solution {
 public:
     int lenLongestFibSubseq(vector<int>& A) {
 	map<int,int> m;
-	vector<vector<int> > dp(A.size(),vector<int>(A.size(),1));
-	int res=0,add=0;
+	vector<vector<int> > dp(A.size()-2,vector<int>(A.size(),1));
+	int res=0,sub=0,tmp=0;
 	for(int i=0;i<A.size();i++)
 		m[A[i]]=i;
-	for(int i=0;i<A.size();i++)
-		for(int j=i+1;j<A.size();)
+	for(int i=2;i<A.size();i++)
+	{
+		tmp=0;
+		for(int j=i-1;j<A.size();j--)
 		{
-			add=A[i]+A[j];
-		       	if(m[add])
+			sub=A[i]-A[j];
+		       	if(m[sub])
 			{
 //				dp[j][m[add]]++;
-				res=max(res,++dp[i][m[add]-m[i]]);		
-			j=m[add];
+			//	res=max(res,++dp[i][m[sub]-m[i]]);		
+			dp[i][
+			j=m[sub];
 			} 
 			else j++;
 		}
+	}
 	return res;
     }
 };
