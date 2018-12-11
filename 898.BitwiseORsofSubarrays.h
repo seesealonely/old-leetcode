@@ -44,19 +44,36 @@ Note:
 class Solution {
 	public:
 		int subarrayBitwiseORs(vector<int>& A) {
+//			return originDp(A);
 			return dp(A);
+		}
+		int originDp(vector<int>& A) {
+		if(A.empty())return 0;
+		map<int,int> m;
+		int res=1;
+		m[A[0]]=1;
+		for(int i=1;i<A.size();i++)
+		{
+		if((!m[A[i]])) {res++;m[A[i]]=1;}
+		for(int j=i-1;j>=0;j--)
+		{
+			A[j]|=A[j+1];
+		if(!m[A[j]]) {res++;m[A[j]]=1;}
+		}
+		}
+		return res;
 		}
 		int dp(vector<int>& A) {
 			if(A.empty()) return 0;
 			int res=1;
-			vector<int> subOR,dp(A.size(),0);
+			vector<int> subOR;
 			sort(A.begin(),A.end());
 			subOR.push_back(A[0]);
 			for(int i=1;i<A.size();i++)
 			{
-				if((subOR.back()|A[i])!=A[i])
+				if((A[i]|subOR.back())!=subOR.back())
 				{
-				subOR.push_back(A[i]);
+				subOR.push_back(A[i]|=subOR.back());
 				res+=subOR.size();
 				}
 			}

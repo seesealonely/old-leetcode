@@ -51,8 +51,8 @@ public:
 			{
 //				dp[j][m[add]]++;
 			//	res=max(res,++dp[i][m[sub]-m[i]]);		
-			dp[i][
-			j=m[sub];
+//			dp[i][
+//			j=m[sub];
 			} 
 			else j++;
 		}

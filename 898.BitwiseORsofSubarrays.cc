@@ -59,5 +59,9 @@ int main()
 	v.push_back(3);	v.push_back(11);
 	cout<<s.subarrayBitwiseORs(v)<<endl;
 	v.clear();
+
+	v.push_back(1);	v.push_back(11);v.push_back(6);	v.push_back(11);
+	cout<<s.subarrayBitwiseORs(v)<<endl;
+	v.clear();
 	return 0;
 }
