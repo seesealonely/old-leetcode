@@ -38,7 +38,7 @@ public:
     int repeatedNTimes(vector<int>& A) {
  	int n=A.size();
 	for(int i=0;i<n;i++)
-	if(A[i]==A[i+1]||A[i]==A[i+2])
+	if(A[i]==A[(i+1)%n]||A[i]==A[(i+2)%n])
 	return A[i];       
     }
 };
