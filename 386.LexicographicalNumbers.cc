@@ -11,6 +11,9 @@ Please optimize your algorithm to use less time and space. The input size may be
 int main()
 {
 	Solution s;
-	s.lexicalOrder();
+	show(s.lexicalOrder(10));
+	show(s.lexicalOrder(13));
+	show(s.lexicalOrder(133));
+	show(s.lexicalOrder(34));
 	return 0;
 }

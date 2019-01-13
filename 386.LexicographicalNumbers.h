@@ -11,6 +11,22 @@ Please optimize your algorithm to use less time and space. The input size may be
 class Solution {
 public:
     vector<int> lexicalOrder(int n) {
- 	       
+	vector<int> res;
+		int cur=1;
+	for(int i=0;i<n;i++)
+	{
+		res.push_back(cur);
+		if(cur*10<=n)
+			cur*=10;	
+		else if(cur<n&&cur%10!=9)
+			cur++;
+		else 
+		{
+			while((cur/10)%10==9)
+				cur/=10;		
+			cur=cur/10+1;
+		}
+	} 	       
+	return res;
     }
 };
