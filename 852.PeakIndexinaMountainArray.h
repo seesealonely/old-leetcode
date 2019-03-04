@@ -31,7 +31,7 @@ class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
 	return binarySearch(A);
-	//return lineScan(A);	        
+	return lineScan(A);	        
     }
 	int lineScan(vector<int> &A)
 	{
@@ -41,7 +41,7 @@ public:
 	}
 	int binarySearch(vector<int> &A)
 	{
-		int begin=0,end=A.size()-1,mid=begin+(end-begin)/2;
+		int begin=0,end=A.size()-1,mid=0;
 		while(begin<end)
 		{
 			mid=begin+(end-begin)/2;
