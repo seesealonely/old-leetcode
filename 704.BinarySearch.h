@@ -33,10 +33,10 @@ public:
     }
 	int binarySearch(vector<int> &nums,int target)
 	{
-		int begin=0,end=nums.size()-1,mid=(begin+end)/2;
+		int begin=0,end=nums.size()-1,mid=0;
 		while(begin<=end)
 		{
-			mid=(begin+end)/2;
+			mid=(end+begin)/2;
 			if(target==nums[mid]) return mid;
 			else if(target>nums[mid])
 			begin=mid+1;
