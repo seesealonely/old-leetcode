@@ -44,5 +44,6 @@ int main()
 	Solution s;
 	cout<<s.toGoatLatin("I speak Goat Latin")<<endl;
 	cout<<s.toGoatLatin("The quick brown fox jumped over the lazy dog")<<endl;
+	cout<<s.toGoatLatin("Each word consists of lowercase and uppercase letters only")<<endl;
 	return 0;
 }

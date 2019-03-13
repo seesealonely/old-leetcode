@@ -41,31 +41,21 @@ Notes:
 
 bool vowelorNot(char c)
 {
-	if(c=='a'||c=='i'||c=='o'||c=='u'
-	||c=='A'||c=='I'||c=='O'||c=='U')
+	if(c=='a'||c=='i'||c=='o'||c=='u'||c=='e'
+	||c=='A'||c=='I'||c=='O'||c=='U'||c=='E')
 	return true;
 	else return false;
 }
 class Solution {
 public:
     string toGoatLatin(string S) {
-	string res,word,a;
-	int anum=0;
-	for(int i=0;i<S.size();i++)
-	{	
-		while(S[i]!=' ') word+=S[i++];
-		if(vowelorNot(word[0]))
-		;
-		else
-		{
-			word+=word[0];
-			word.erase(0,1);
-		}	
-		word=word+"ma"+(a+="a");
-		res+=word+" ";	
-		word.clear();
+	string res,word,a="ma";;
+	istringstream iss(S);
+	while(iss>>word)
+	{
+		a+="a";
+		res+=" "+(vowelorNot(word[0])?word:word.substr(1)+word[0])+a;
 	}
-	res.erase(res.size()-1);
-	return res;
+	return res.substr(1);
     }
 };

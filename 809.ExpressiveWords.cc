@@ -23,26 +23,13 @@ Notes:
 
 */
 
-#include"head.h"
+#include"809.ExpressiveWords.h"
 
-class Solution {
-public:
-    int expressiveWords(string S, vector<string>& words) {
-	int res=0;
-	for(int i=0;i<words.size();i++)
-	if(checkOne(S,words[i])) res++; 
-	return res;
-    }
-	bool checkOne(string &S,string &W)
-	{
-		int ls=S.size(),lw=W.size(),bw=0;
-		for(int i=0;i<ls;i++)
-		{
-			if(bw<lw&&S[i]==W[bw]) bw++;
-			else if(i>1&&S[i-2]==S[i-1]&&S[i-1]==S[i]);	
-			else if(i>0&&i<ls-1&&S[i-1]==S[i]&&S[i+1]==S[i]);
-			else return false;
-		}
-		return bw==lw;
-	}	
-};
+int main()
+{
+	Solution s;
+	vector<string> v;
+	v.push_back("hello");v.push_back("hi");v.push_back("helo");
+	cout<<s.expressiveWords("heeellooo",v)<<endl;
+	return 0;
+}
