@@ -25,5 +25,10 @@ nums[i] will be an integer between 0 and 49,999.
 #include"697.DegreeofanArray.h"
 int main()
 {
-	
+	Solution s;
+	vector<int> v={1, 2, 2, 3, 1};
+	cout<<s.findShortestSubArray(v)<<endl;
+	v.clear(); v={1,2,2,3,1,4,2};
+	cout<<s.findShortestSubArray(v)<<endl;
+	return 0;	
 }
