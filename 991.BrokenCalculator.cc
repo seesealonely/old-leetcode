@@ -52,5 +52,6 @@ int main()
 	cout<<s.brokenCalc(5,8)<<endl;
 	cout<<s.brokenCalc(3,10)<<endl;
 	cout<<s.brokenCalc(1024,1)<<endl;
+
 	return 0;
 }
