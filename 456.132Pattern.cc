@@ -39,5 +39,9 @@ int main()
 	Solution s;
 	cout<<s.find132pattern(v)<<endl;
 	cout<<s.find132pattern(v1)<<endl;
+	v.clear();v={1,2,3,4,5};
+	cout<<s.find132pattern(v)<<endl;
+	v.clear();v={-1,3,2,0};
+	cout<<s.find132pattern(v)<<endl;
 	return 0;
 }
