@@ -8,6 +8,8 @@ Given a strictly increasing array A of positive integers forming a sequence, fin
 
 (Recall that a subsequence is derived from another sequence A by deleting any number of elements (including none) from A, without changing the order of the remaining elements.  For example, [3, 5, 8] is a subsequence of [3, 4, 5, 6, 7, 8].)
 
+ 
+
 Example 1:
 
 Input: [1,2,3,4,5,6,7,8]
@@ -22,7 +24,9 @@ Output: 3
 Explanation:
 The longest subsequence that is fibonacci-like:
 [1,11,12], [3,11,14] or [7,11,18].
+
  
+
 Note:
 
     3 <= A.length <= 1000
@@ -30,33 +34,29 @@ Note:
     (The time limit has been reduced by 50% for submissions in Java, C, and C++.)
 
 */
-
+#define c11
 #include"head.h"
 
 class Solution {
 public:
     int lenLongestFibSubseq(vector<int>& A) {
-	map<int,int> m;
-	vector<vector<int> > dp(A.size()-2,vector<int>(A.size(),1));
-	int res=0,sub=0,tmp=0;
-	for(int i=0;i<A.size();i++)
-		m[A[i]]=i;
-	for(int i=2;i<A.size();i++)
-	{
-		tmp=0;
-		for(int j=i-1;j<A.size();j--)
-		{
-			sub=A[i]-A[j];
-		       	if(m[sub])
+      		int res=0;
+		unordered_map<int,int> hash;
+		for(int i=0;i<A.size();i++)
+			hash.insert(pair<int,int>(A[i],i));
+		vector<vector<int> > dp(A.size(),vector<int>(A.size(),2));
+		for(int i=1;i<A.size();i++)
+			for(int j=i-1;j>=0;j--)
 			{
-//				dp[j][m[add]]++;
-			//	res=max(res,++dp[i][m[sub]-m[i]]);		
-//			dp[i][
-//			j=m[sub];
-			} 
-			else j++;
-		}
-	}
-	return res;
+			if(hash.find(A[i]-A[j])!=hash.end()&&hash[A[i]-A[j]]<j)
+				dp[j][i]=max(dp[j][i],dp[hash[A[i]-A[j]]][j]+1);
+				res=max(dp[j][i],res);
+			}
+		return res==2?0:res;
     }
 };
+/*
+		for(int i=0;i<A.size();i++)
+			for(int j=i+1;j<A.size();j++)
+				res=max(res,dp[i][j]);	
+*/
