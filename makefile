@@ -1,4 +1,4 @@
-ex:lib.a 3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 27 29.DivideTwoIntegers 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 35 34.SearchforaRange 39 40 41.FirstMissingPositive 17 45.JumpGameII 46 47.PermutationsII 48.RotateImage  53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 72.EditDistance 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 91.DecodeWays 94 95.UniqueBinarySearchTreesII 96.UniqueBinarySearchTrees 97.InterleavingString 99.RecoverBinarySearchTree 100 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 105.ConstructBinaryTreefromPreorderandInorderTraversal 106.ConstructBinaryTreefromInorderandPostorderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 115.DistinctSubsequences 116.PopulatingNextRightPointersinEachNode 117.PopulatingNextRightPointersinEachNodeII 118 119 120.Triangle 121 124.BinaryTreeMaximumPathSum 125 128.LongestConsecutiveSequence 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 145.BinaryTreePostorderTraversal 147.InsertionSortList 148.SortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  155.MinStack 162.FindPeakElement 164.MaximumGap 168 169 171 172.FactorialTrailingZeroes 173.BinarySearchTreeIterator 174.DungeonGame 187.RepeatedDNASequences 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 216.CombinationSumIII 217 219 220 221.MaximalSquare 222.CountCompleteTreeNodes  225.ImplementStackusingQueues 226.InvertBinaryTree 227.BasicCalculatorII 228.SummaryRanges 229.MajorityElementII 230.KthSmallestElementinaBST 231 232.ImplementQueueusingStacks 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 241.DifferentWaystoAddParentheses 242 257 260 263 264 268 278.FirstBadVersion 279 283 287.FindtheDuplicateNumber 290.WordPattern 290.WordPattern 297.SerializeandDeserializeBinaryTree 299.BullsandCows 300.LongestIncreasingSubsequence 303.RangeSumQuery-Immutable 304.RangeSumQuery2D-Immutable 307.RangeSumQuery-Mutable 318.MaximumProductofWordLengths 319.BulbSwitcher 322.CoinChange 328.OddEvenLinkedList 326.PowerofThree 337.HouseRobberIII 338.CountingBits 342 334.IncreasingTripletSubsequence 343.IntegerBreak 344 345 347.TopKFrequentElements 349.IntersectionofTwoArrays 350.IntersectionofTwoArraysII 357.CountNumberswithUniqueDigits 365.WaterandJugProblem 367.ValidPerfectSquare 368.LargestDivisibleSubset 380.InsertDeleteGetRandomO1 376.WiggleSubsequence 377.CombinationSumIV 381.InsertDeleteGetRandomO1Duplicatesallowed 386.LexicographicalNumbers 387.FirstUniqueCharacterinaString 389 383 392.IsSubsequence 394.DecodeString 396.RotateFunction 397.IntegerReplacement 402.RemoveKDigits 404.SumofLeftLeaves 405 409.LongestPalindrome 412 413.ArithmeticSlices 415.AddStrings 416.PartitionEqualSubsetSum 419.BattleshipsinaBoard 424.LongestRepeatingCharacterReplacement 434 437.PathSumIII 438.FindAllAnagramsinaString 441.ArrangingCoins 441.ArrangingCoins 442.FindAllDuplicatesinanArray 443.StringCompression 445.AddTwoNumbersII 448 449.SerializeandDeserializeBST 450.DeleteNodeinaBST 451.SortCharactersByFrequency 453.MinimumMovestoEqualArrayElements 454.4SumII 455.AssignCookies 456.132Pattern 459 461 462.MinimumMovestoEqualArrayElementsII 463.IslandPerimeter 476 477.TotalHammingDistance 482.LicenseKeyFormatting 485 491.IncreasingSubsequences 492.ConstructtheRectangle 494.TargetSum 496.NextGreaterElementI 500.KeyboardRow 503.NextGreaterElementII 504 507.PerfectNumber 508.MostFrequentSubtreeSum 513 515 516.LongestPalindromicSubsequence 523.ContinuousSubarraySum 525.ContiguousArray 526.BeautifulArrangement 530.MinimumAbsoluteDifferenceinBST 532 537.ComplexNumberMultiplication 538.ConvertBSTtoGreaterTree 540.SingleElementinaSortedArray 541.ReverseStringII 542.01Matrix 543.DiameterofBinaryTree 547.FriendCircles 551.StudentAttendanceRecordI 553.OptimalDivision 554.BrickWall 556.NextGreaterElementIII 557.ReverseWordsinaStringIII 560.SubarraySumEqualsK 561.ArrayPartitionI 565.ArrayNesting 566.ReshapetheMatrix 567.PermutationinString 572.SubtreeofAnotherTree 575.DistributeCandies 581.ShortestUnsortedContinuousSubarray 583.DeleteOperationforTwoStrings 594.LongestHarmoniousSubsequence 598.RangeAdditionII 599.MinimumIndexSumofTwoLists 605.CanPlaceFlowers 606.ConstructStringfromBinaryTree 617.MergeTwoBinaryTrees 628.MaximumProductofThreeNumbers 629.KInversePairsArray 633.SumofSquareNumbers 637.AverageofLevelsinBinaryTree 639.DecodeWaysII 643.MaximumAverageSubarrayI 645.SetMismatch 646.MaximumLengthofPairChain 647.PalindromicSubstrings 650.2KeysKeyboard 653.TwoSumIV-InputisaBST 654.MaximumBinaryTree 655.PrintBinaryTree 657.JudgeRouteCircle 660.Remove9 665.Non-decreasingArray 669.TrimaBinarySearchTree 670.MaximumSwap 671.SecondMinimumNodeInaBinaryTree 673.NumberofLongestIncreasingSubsequence 674.LongestContinuousIncreasingSubsequence 686.RepeatedStringMatch 693.BinaryNumberwithAlternatingBits 695.MaxAreaofIsland 697.DegreeofanArray 696.CountBinarySubstrings 698.PartitiontoKEqualSumSubsets 704.BinarySearch 709.ToLowerCase 712.MinimumASCIIDeleteSumforTwoStrings 713.SubarrayProductLessThanK 717.1-bitand2-bitCharacters 718.MaximumLengthofRepeatedSubarray 724.FindPivotIndex 728.SelfDividingNumbers 733.FloodFill 735.AsteroidCollision 740.DeleteandEarn 739.DailyTemperatures 744.FindSmallestLetterGreaterThanTarget 746.MinCostClimbingStairs 747.LargestNumberAtLeastTwiceofOthers 754.ReachaNumber 762.PrimeNumberofSetBitsinBinaryRepresentation 763.PartitionLabels 766.ToeplitzMatrix 769.MaxChunksToMakeSorted 771.JewelsandStones 775.GlobalandLocalInversions 777 779.K-thSymbolinGrammar 781.RabbitsinForest 784.LetterCasePermutation 788.RotatedDigits 789.EscapeTheGhosts 791.CustomSortString 795.NumberofSubarrayswithBoundedMaximum 796.RotateString 797.AllPathsFromSourcetoTarget 801.MinimumSwapsToMakeSequencesIncreasing 804 806.NumberofLinesToWriteString 813.LargestSumofAverages 819.MostCommonWord 821.ShortestDistancetoaCharacter 824.GoatLatin 830.PositionsofLargeGroups 832.FlippinganImage 836.RectangleOverlap 845.LongestMountaininArray 848.ShiftingLetters 849.MaximizeDistancetoClosestPerson 852.PeakIndexinaMountainArray 856.ScoreofParentheses 859.BuddyStrings 860.LemonadeChange 867 868.BinaryGap 873.LengthofLongestFibonacciSubsequence 876.MiddleoftheLinkedList 888.FairCandySwap 890.FindandReplacePattern 896.MonotonicArray 898.BitwiseORsofSubarrays 900.RLEIterator 905.SortArrayByParity 908.SmallestRangeI 914.XofaKindinaDeckofCards 915.PartitionArrayintoDisjointIntervals 917.ReverseOnlyLetters 921.MinimumAddtoMakeParenthesesValid 922.SortArrayByParityII 925.LongPressedName 926.FlipStringtoMonotoneIncreasing 931.MinimumFallingPathSum 938.RangeSumofBST 941.ValidMountainArray 942.DIStringMatch 944.DeleteColumnstoMakeSorted 945.MinimumIncrementtoMakeArrayUnique 946.ValidateStackSequences 947.MostStonesRemovedwithSameRoworColumn 948.BagofTokens 949.LargestTimeforGivenDigits 950.RevealCardsInIncreasingOrder 950.RevealCardsInIncreasingOrder 951.FlipEquivalentBinaryTrees 954.ArrayofDoubledPairs 957.PrisonCellsAfterNDays 961.N-RepeatedElementinSize2NArray 962.MaximumWidthRamp 965.UnivaluedBinaryTree 974.SubarraySumsDivisiblebyK 976.LargestPerimeterTriangle 977.SquaresofaSortedArray 978.LongestTurbulentSubarray 984.StringWithoutAAAorBBB 989.AddtoArray-FormofInteger 991.BrokenCalculator
+ex:lib.a 3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 10.RegularExpressionMatching 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 27 29.DivideTwoIntegers 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 35 34.SearchforaRange 39 40 41.FirstMissingPositive 17 44.WildcardMatching 43.MultiplyStrings 45.JumpGameII 46 47.PermutationsII 48.RotateImage 49.GroupAnagrams 53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 71.SimplifyPath 72.EditDistance 73.SetMatrixZeroes 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82  83 88 89 90 91.DecodeWays 94 95.UniqueBinarySearchTreesII 96.UniqueBinarySearchTrees 97.InterleavingString 99.RecoverBinarySearchTree 100 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 105.ConstructBinaryTreefromPreorderandInorderTraversal 106.ConstructBinaryTreefromInorderandPostorderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 115.DistinctSubsequences 116.PopulatingNextRightPointersinEachNode 117.PopulatingNextRightPointersinEachNodeII 118 119 120.Triangle 121 124.BinaryTreeMaximumPathSum 125 128.LongestConsecutiveSequence 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 145.BinaryTreePostorderTraversal 147.InsertionSortList 148.SortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII  155.MinStack 162.FindPeakElement 164.MaximumGap 168 169 171 172.FactorialTrailingZeroes 173.BinarySearchTreeIterator 174.DungeonGame 187.RepeatedDNASequences 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 209.MinimumSizeSubarraySum 213.HouseRobberII 215 216.CombinationSumIII 217 219 220 221.MaximalSquare 222.CountCompleteTreeNodes  225.ImplementStackusingQueues 226.InvertBinaryTree 227.BasicCalculatorII 228.SummaryRanges 229.MajorityElementII 230.KthSmallestElementinaBST 231 232.ImplementQueueusingStacks 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 241.DifferentWaystoAddParentheses 242 257 260 263 264 268 278.FirstBadVersion 279 283 287.FindtheDuplicateNumber 290.WordPattern 290.WordPattern 297.SerializeandDeserializeBinaryTree 299.BullsandCows 300.LongestIncreasingSubsequence 303.RangeSumQuery-Immutable 304.RangeSumQuery2D-Immutable 307.RangeSumQuery-Mutable 316.RemoveDuplicateLetters 318.MaximumProductofWordLengths 319.BulbSwitcher 322.CoinChange 328.OddEvenLinkedList 326.PowerofThree 337.HouseRobberIII 338.CountingBits 342 334.IncreasingTripletSubsequence 343.IntegerBreak 344 345 347.TopKFrequentElements 349.IntersectionofTwoArrays 350.IntersectionofTwoArraysII 354.RussianDollEnvelopes 357.CountNumberswithUniqueDigits 365.WaterandJugProblem 367.ValidPerfectSquare 368.LargestDivisibleSubset 374.GuessNumberHigherorLower 380.InsertDeleteGetRandomO1 376.WiggleSubsequence 377.CombinationSumIV 381.InsertDeleteGetRandomO1Duplicatesallowed 386.LexicographicalNumbers 387.FirstUniqueCharacterinaString 389 383 392.IsSubsequence 394.DecodeString 396.RotateFunction 397.IntegerReplacement 402.RemoveKDigits 404.SumofLeftLeaves 405 409.LongestPalindrome 412 413.ArithmeticSlices 415.AddStrings 416.PartitionEqualSubsetSum 419.BattleshipsinaBoard 424.LongestRepeatingCharacterReplacement 434 437.PathSumIII 438.FindAllAnagramsinaString 441.ArrangingCoins 441.ArrangingCoins 442.FindAllDuplicatesinanArray 443.StringCompression 445.AddTwoNumbersII 448 449.SerializeandDeserializeBST 450.DeleteNodeinaBST 451.SortCharactersByFrequency 453.MinimumMovestoEqualArrayElements 454.4SumII 455.AssignCookies 456.132Pattern 459 461 462.MinimumMovestoEqualArrayElementsII 463.IslandPerimeter 467.UniqueSubstringsinWraparoundString 474.OnesandZeroes 476 477.TotalHammingDistance 482.LicenseKeyFormatting 485 486.predictthewinner 491.IncreasingSubsequences 492.ConstructtheRectangle 494.TargetSum 496.NextGreaterElementI 500.KeyboardRow 503.NextGreaterElementII 504 507.PerfectNumber 508.MostFrequentSubtreeSum 509.FibonacciNumber 513 515 516.LongestPalindromicSubsequence 518.CoinChange2 523.ContinuousSubarraySum 525.ContiguousArray 526.BeautifulArrangement 530.MinimumAbsoluteDifferenceinBST 532 537.ComplexNumberMultiplication 538.ConvertBSTtoGreaterTree 540.SingleElementinaSortedArray 541.ReverseStringII 542.01Matrix 543.DiameterofBinaryTree 547.FriendCircles 551.StudentAttendanceRecordI 553.OptimalDivision 554.BrickWall 556.NextGreaterElementIII 557.ReverseWordsinaStringIII 560.SubarraySumEqualsK 561.ArrayPartitionI 565.ArrayNesting 566.ReshapetheMatrix 567.PermutationinString 572.SubtreeofAnotherTree 575.DistributeCandies 581.ShortestUnsortedContinuousSubarray 583.DeleteOperationforTwoStrings 594.LongestHarmoniousSubsequence 598.RangeAdditionII 599.MinimumIndexSumofTwoLists 600.Non-negativeIntegerswithoutConsecutiveOnes 605.CanPlaceFlowers 606.ConstructStringfromBinaryTree 617.MergeTwoBinaryTrees 628.MaximumProductofThreeNumbers 629.KInversePairsArray 633.SumofSquareNumbers 637.AverageofLevelsinBinaryTree 639.DecodeWaysII 643.MaximumAverageSubarrayI 645.SetMismatch 646.MaximumLengthofPairChain 647.PalindromicSubstrings 650.2KeysKeyboard 653.TwoSumIV-InputisaBST 654.MaximumBinaryTree 655.PrintBinaryTree 657.JudgeRouteCircle 660.Remove9 665.Non-decreasingArray 669.TrimaBinarySearchTree 670.MaximumSwap 671.SecondMinimumNodeInaBinaryTree 673.NumberofLongestIncreasingSubsequence 674.LongestContinuousIncreasingSubsequence 680.ValidPalindromeII 682.BaseballGame 684.RedundantConnection 686.RepeatedStringMatch 693.BinaryNumberwithAlternatingBits 695.MaxAreaofIsland 697.DegreeofanArray 696.CountBinarySubstrings 698.PartitiontoKEqualSumSubsets 704.BinarySearch 709.ToLowerCase 712.MinimumASCIIDeleteSumforTwoStrings 713.SubarrayProductLessThanK 717.1-bitand2-bitCharacters 718.MaximumLengthofRepeatedSubarray 724.FindPivotIndex 728.SelfDividingNumbers 733.FloodFill 735.AsteroidCollision 740.DeleteandEarn 739.DailyTemperatures 744.FindSmallestLetterGreaterThanTarget 746.MinCostClimbingStairs 747.LargestNumberAtLeastTwiceofOthers 754.ReachaNumber 762.PrimeNumberofSetBitsinBinaryRepresentation 763.PartitionLabels 766.ToeplitzMatrix 769.MaxChunksToMakeSorted 771.JewelsandStones 775.GlobalandLocalInversions 777 779.K-thSymbolinGrammar 781.RabbitsinForest 784.LetterCasePermutation 788.RotatedDigits 789.EscapeTheGhosts 791.CustomSortString 795.NumberofSubarrayswithBoundedMaximum 796.RotateString 797.AllPathsFromSourcetoTarget 801.MinimumSwapsToMakeSequencesIncreasing 804 806.NumberofLinesToWriteString 809.ExpressiveWords 813.LargestSumofAverages 819.MostCommonWord 821.ShortestDistancetoaCharacter 828.UniqueLetterString 824.GoatLatin 830.PositionsofLargeGroups 832.FlippinganImage 836.RectangleOverlap 844.BackspaceStringCompare 845.LongestMountaininArray 848.ShiftingLetters 849.MaximizeDistancetoClosestPerson 852.PeakIndexinaMountainArray 856.ScoreofParentheses 859.BuddyStrings 860.LemonadeChange 867 868.BinaryGap 873.LengthofLongestFibonacciSubsequence 876.MiddleoftheLinkedList 881.BoatstoSavePeople 888.FairCandySwap 890.FindandReplacePattern 891.SumofSubsequenceWidths 893.GroupsofSpecial-EquivalentStrings 896.MonotonicArray 898.BitwiseORsofSubarrays 900.RLEIterator 901.OnlineStockSpan 905.SortArrayByParity 907.SumofSubarrayMinimums 908.SmallestRangeI 914.XofaKindinaDeckofCards 915.PartitionArrayintoDisjointIntervals 916.WordSubsets 917.ReverseOnlyLetters 921.MinimumAddtoMakeParenthesesValid 922.SortArrayByParityII 925.LongPressedName 926.FlipStringtoMonotoneIncreasing 927.ThreeEqualParts 929.UniqueEmailAddresses  930.BinarySubarraysWithSum 931.MinimumFallingPathSum 938.RangeSumofBST 941.ValidMountainArray 942.DIStringMatch 944.DeleteColumnstoMakeSorted 945.MinimumIncrementtoMakeArrayUnique 946.ValidateStackSequences 947.MostStonesRemovedwithSameRoworColumn 948.BagofTokens 949.LargestTimeforGivenDigits 950.RevealCardsInIncreasingOrder 950.RevealCardsInIncreasingOrder 951.FlipEquivalentBinaryTrees 954.ArrayofDoubledPairs 957.PrisonCellsAfterNDays 961.N-RepeatedElementinSize2NArray 962.MaximumWidthRamp 965.UnivaluedBinaryTree 967.NumbersWithSameConsecutiveDifferences 970.PowerfulIntegers 974.SubarraySumsDivisiblebyK 976.LargestPerimeterTriangle 977.SquaresofaSortedArray 978.LongestTurbulentSubarray 982.TripleswithBitwiseANDEqualToZero 983.MinimumCostForTickets 984.StringWithoutAAAorBBB 986.IntervalListIntersections 989.AddtoArray-FormofInteger 991.BrokenCalculator 992.SubarrayswithKDifferentIntegers 994.RottingOranges 997.FindtheTownJudge 1002.FindCommonCharacters 1003.CheckIfWordIsValidAfterSubstitutions 1004.MaxConsecutiveOnesIII 1012.ComplementofBase10Integer 1013.PairsofSongsWithTotalDurationsDivisibleby60 1013.PartitionArrayIntoThreePartsWithEqualSum 1014.BestSightseeingPair 1017.ConverttoBase-2 1018.BinaryPrefixDivisibleBy5 1021.RemoveOutermostParentheses 1022.SumofRootToLeafBinaryNumbers
 lib.a:head.o
 	ar -crv $@ $<
 head.o:head.cc
@@ -9,6 +9,8 @@ head.o:head.cc
 6.ZigZagConversion:6.ZigZagConversion.h 6.ZigZagConversion.cc    lib.a
 	g++ -g -Wall $^ -o $@
 9:9.h 9.cxx  lib.a
+	g++ -g -Wall $^ -o $@
+10.RegularExpressionMatching:10.RegularExpressionMatching.h 10.RegularExpressionMatching.cc
 	g++ -g -Wall $^ -o $@
 11.ContainerWithMostWater:11.ContainerWithMostWater.h 11.ContainerWithMostWater.cc    lib.a
 	g++ -g -Wall $^ -o $@
@@ -66,6 +68,10 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 17:17.h 17.cxx  lib.a
 	g++ -g -Wall $^ -o $@
+43.MultiplyStrings:43.MultiplyStrings.h 43.MultiplyStrings.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
+44.WildcardMatching:44.WildcardMatching.h 44.WildcardMatching.cc
+	g++ -g -Wall $^ -o $@
 45.JumpGameII:45.JumpGameII.h 45.JumpGameII.cc lib.a
 	g++ -g -Wall $^ -o $@
 46:46.h 46.cc  lib.a
@@ -74,6 +80,8 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 48.RotateImage:48.RotateImage.h  48.RotateImage.cc   lib.a
 	g++ -g -Wall $^ -o $@
+49.GroupAnagrams:49.GroupAnagrams.h 49.GroupAnagrams.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@
 53:53.h 53.cc  lib.a
 	g++ -g -Wall $^ -o $@
 54.SpiralMatrix:54.SpiralMatrix.h  54.SpiralMatrix.cc lib.a
@@ -100,8 +108,12 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 70:70.h 70.cc  lib.a
 	g++ -g -Wall $^ -o $@
+71.SimplifyPath:71.SimplifyPath.h 71.SimplifyPath.cc
+	g++ -g -Wall $^ -o $@
 72.EditDistance:72.EditDistance.h 72.EditDistance.cc lib.a
 	g++ -g -Wall $^ -o $@
+73.SetMatrixZeroes:73.SetMatrixZeroes.h 73.SetMatrixZeroes.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@
 75:75.h 75.cc  lib.a
 	g++ -g -Wall $^ -o $@
 74:74.h 74.cc  lib.a
@@ -264,6 +276,8 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 206:206.h 206.cc  lib.a
 	g++ -g -Wall $^ -o $@
+209.MinimumSizeSubarraySum:209.MinimumSizeSubarraySum.h 209.MinimumSizeSubarraySum.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
 213.HouseRobberII:213.HouseRobberII.h 213.HouseRobberII.cc    lib.a
 	g++ -g -Wall $^ -o $@
 215:215.h 215.cc  lib.a
@@ -338,6 +352,8 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 307.RangeSumQuery-Mutable:307.RangeSumQuery-Mutable.h 307.RangeSumQuery-Mutable.cc    lib.a
 	g++ -g -Wall $^ -o $@
+316.RemoveDuplicateLetters:316.RemoveDuplicateLetters.h 316.RemoveDuplicateLetters.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
 318.MaximumProductofWordLengths:318.MaximumProductofWordLengths.h 318.MaximumProductofWordLengths.cc lib.a
 	g++ -g -Wall $^ -o $@
 319.BulbSwitcher:319.BulbSwitcher.h 319.BulbSwitcher.cc
@@ -368,6 +384,8 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 350.IntersectionofTwoArraysII:350.IntersectionofTwoArraysII.h 350.IntersectionofTwoArraysII.cc    lib.a
 	g++ -g -Wall $^ -o $@
+354.RussianDollEnvelopes:354.RussianDollEnvelopes.h 354.RussianDollEnvelopes.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
 357.CountNumberswithUniqueDigits:357.CountNumberswithUniqueDigits.h 357.CountNumberswithUniqueDigits.cc  lib.a
 	g++ -g -Wall $^ -o $@
 365.WaterandJugProblem:365.WaterandJugProblem.h 365.WaterandJugProblem.cc
@@ -375,6 +393,8 @@ head.o:head.cc
 367.ValidPerfectSquare:367.ValidPerfectSquare.h  367.ValidPerfectSquare.cc   lib.a
 	g++ -g -Wall $^ -o $@
 368.LargestDivisibleSubset:368.LargestDivisibleSubset.cc lib.a
+	g++ -g -Wall $^ -o $@
+374.GuessNumberHigherorLower:374.GuessNumberHigherorLower.h 374.GuessNumberHigherorLower.cc
 	g++ -g -Wall $^ -o $@
 376.WiggleSubsequence:376.WiggleSubsequence.h 376.WiggleSubsequence.cc lib.a
 	g++ -g -Wall $^ -o $@
@@ -435,7 +455,7 @@ head.o:head.cc
 443.StringCompression:443.StringCompression.h 443.StringCompression.cc lib.a
 	g++ -g -Wall  -std=c++11 $^ -o $@
 445.AddTwoNumbersII:445.AddTwoNumbersII.h 445.AddTwoNumbersII.cc    lib.a
-	g++ -g -Wall $^ -o $@
+	g++ -g -Wall -std=c++11  $^ -o $@
 448:448.h 448.cc  lib.a
 	g++ -g -Wall $^ -o $@
 449.SerializeandDeserializeBST:449.SerializeandDeserializeBST.h 449.SerializeandDeserializeBST.cc    lib.a
@@ -451,7 +471,7 @@ head.o:head.cc
 455.AssignCookies:455.AssignCookies.h 455.AssignCookies.cc lib.a   
 	g++ -g -Wall $^ -o $@
 456.132Pattern:456.132Pattern.h 456.132Pattern.cc    lib.a
-	g++ -g -Wall $^ -o $@
+	g++ -g -Wall -std=c++11 $^ -o $@
 459:459.h 459.cc  lib.a
 	g++ -g -Wall $^ -o $@
 461:461.h 461.cc  lib.a
@@ -460,6 +480,10 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 463.IslandPerimeter:463.IslandPerimeter.h 463.IslandPerimeter.cc    lib.a
 	g++ -g -Wall $^ -o $@
+467.UniqueSubstringsinWraparoundString:467.UniqueSubstringsinWraparoundString.h 467.UniqueSubstringsinWraparoundString.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
+474.OnesandZeroes:474.OnesandZeroes.h 474.OnesandZeroes.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
 476:476.h 476.cc  lib.a
 	g++ -g -Wall $^ -o $@
 477.TotalHammingDistance:477.TotalHammingDistance.h 477.TotalHammingDistance.cc    lib.a
@@ -468,6 +492,8 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 485:485.h 485.cc  lib.a
 	g++ -g -Wall $^ -o $@
+486.predictthewinner:486.predictthewinner.h 486.predictthewinner.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
 491.IncreasingSubsequences:491.IncreasingSubsequences.h 491.IncreasingSubsequences.cc lib.a
 	g++ -g -Wall $^ -o $@
 492.ConstructtheRectangle:492.ConstructtheRectangle.h 492.ConstructtheRectangle.cc    lib.a
@@ -486,11 +512,15 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 508.MostFrequentSubtreeSum:508.MostFrequentSubtreeSum.h 508.MostFrequentSubtreeSum.cc  lib.a
 	g++ -g -Wall -std=c++11 $^ -o $@
+509.FibonacciNumber:509.FibonacciNumber.h 509.FibonacciNumber.cc
+	g++ -g -Wall $^ -o $@
 515:515.h 515.cc  lib.a
 	g++ -g -Wall $^ -o $@
 513:513.h 513.cc  lib.a
 	g++ -g -Wall $^ -o $@
 516.LongestPalindromicSubsequence:516.LongestPalindromicSubsequence.h 516.LongestPalindromicSubsequence.cc lib.a
+	g++ -g -Wall $^ -o $@
+518.CoinChange2:518.CoinChange2.h 518.CoinChange2.cc
 	g++ -g -Wall $^ -o $@
 523.ContinuousSubarraySum:523.ContinuousSubarraySum.h 523.ContinuousSubarraySum.cc lib.a
 	g++ -g -Wall $^ -o $@
@@ -550,6 +580,8 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 599.MinimumIndexSumofTwoLists:599.MinimumIndexSumofTwoLists.h 599.MinimumIndexSumofTwoLists.cc    lib.a
 	g++ -g -Wall $^ -o $@
+600.Non-negativeIntegerswithoutConsecutiveOnes:600.Non-negativeIntegerswithoutConsecutiveOnes.h 600.Non-negativeIntegerswithoutConsecutiveOnes.cc
+	g++ -g -Wall $^ -o $@
 605.CanPlaceFlowers:605.CanPlaceFlowers.h 605.CanPlaceFlowers.cc   lib.a
 	g++ -g -Wall $^ -o $@
 606.ConstructStringfromBinaryTree:606.ConstructStringfromBinaryTree.h 606.ConstructStringfromBinaryTree.cc lib.a
@@ -598,6 +630,12 @@ head.o:head.cc
 	g++ -g -Wall -std=c++11  $^ -o $@
 674.LongestContinuousIncreasingSubsequence:674.LongestContinuousIncreasingSubsequence.h 674.LongestContinuousIncreasingSubsequence.cc    lib.a
 	g++ -g -Wall $^ -o $@
+680.ValidPalindromeII:680.ValidPalindromeII.h 680.ValidPalindromeII.cc
+	g++ -g -Wall $^ -o $@
+682.BaseballGame:682.BaseballGame.h 682.BaseballGame.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
+684.RedundantConnection:684.RedundantConnection.h 684.RedundantConnection.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@
 686.RepeatedStringMatch:686.RepeatedStringMatch.h 686.RepeatedStringMatch.cc lib.a
 	g++ -g -Wall $^ -o $@
 693.BinaryNumberwithAlternatingBits:693.BinaryNumberwithAlternatingBits.h 693.BinaryNumberwithAlternatingBits.cc lib.a
@@ -605,7 +643,7 @@ head.o:head.cc
 695.MaxAreaofIsland:695.MaxAreaofIsland.h 695.MaxAreaofIsland.cc lib.a
 	g++ -g -Wall $^ -o $@
 697.DegreeofanArray:697.DegreeofanArray.h 697.DegreeofanArray.cc lib.a
-	g++ -g -Wall $^ -o $@
+	g++ -g -Wall -std=c++11 $^ -o $@
 696.CountBinarySubstrings:696.CountBinarySubstrings.h 696.CountBinarySubstrings.cc lib.a
 	g++ -g -Wall $^ -o $@
 698.PartitiontoKEqualSumSubsets:698.PartitiontoKEqualSumSubsets.cc lib.a
@@ -680,11 +718,15 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 806.NumberofLinesToWriteString:806.NumberofLinesToWriteString.h 806.NumberofLinesToWriteString.cc lib.a
 	g++ -g -Wall $^ -o $@
+809.ExpressiveWords:809.ExpressiveWords.h 809.ExpressiveWords.cc
+	g++ -g -Wall $^ -o $@
 813.LargestSumofAverages:813.LargestSumofAverages.cc lib.a
 	g++ -g -Wall $^ -o $@
 819.MostCommonWord:819.MostCommonWord.h 819.MostCommonWord.cc
 	g++ -g -Wall -std=c++11 $^ -o $@
 821.ShortestDistancetoaCharacter:821.ShortestDistancetoaCharacter.h 821.ShortestDistancetoaCharacter.cc lib.a
+	g++ -g -Wall $^ -o $@
+828.UniqueLetterString:828.UniqueLetterString.h 828.UniqueLetterString.cc
 	g++ -g -Wall $^ -o $@
 824.GoatLatin:824.GoatLatin.h 824.GoatLatin.cc lib.a
 	g++ -g -Wall $^ -o $@
@@ -694,7 +736,7 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@
 836.RectangleOverlap:836.RectangleOverlap.h 836.RectangleOverlap.cc lib.a
 	g++ -g -Wall $^ -o $@
-844:844.h 844.cc lib.a
+844.BackspaceStringCompare:844.BackspaceStringCompare.h 844.BackspaceStringCompare.cc
 	g++ -g -Wall $^ -o $@
 845.LongestMountaininArray:845.LongestMountaininArray.h 845.LongestMountaininArray.cc
 	g++ -g -Wall $^ -o $@
@@ -717,8 +759,10 @@ head.o:head.cc
 868.BinaryGap:868.BinaryGap.h 868.BinaryGap.cc lib.a
 	g++ -g -Wall $^ -o $@
 873.LengthofLongestFibonacciSubsequence:873.LengthofLongestFibonacciSubsequence.cc lib.a
-	g++ -g -Wall $^ -o $@
+	g++ -g -Wall -std=c++11 $^ -o $@
 #876.MiddleoftheLinkedList:head.h 876.MiddleoftheLinkedList.h 876.MiddleoftheLinkedList.cc 
+881.BoatstoSavePeople:881.BoatstoSavePeople.h 881.BoatstoSavePeople.cc
+	g++ -g -Wall -std=c++11 $^ -o $@
 876.MiddleoftheLinkedList:876.MiddleoftheLinkedList.cc lib.a
 	g++ -g -Wall $^ -o $@ 
 888.FairCandySwap:888.FairCandySwap.h 888.FairCandySwap.cc lib.a 
@@ -726,15 +770,22 @@ head.o:head.cc
 	g++ -g -Wall -std=c++11 $^ -o $@ 
 890.FindandReplacePattern:890.FindandReplacePattern.h 890.FindandReplacePattern.cc lib.a
 	g++ -g -Wall -std=c++11 -D c11 $^ -o $@ 
+891.SumofSubsequenceWidths:891.SumofSubsequenceWidths.h 891.SumofSubsequenceWidths.cc
+	g++ -g -Wall -std=c++11 -D c11 $^ -o $@ 
+893.GroupsofSpecial-EquivalentStrings:893.GroupsofSpecial-EquivalentStrings.h 893.GroupsofSpecial-EquivalentStrings.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@ 
 896.MonotonicArray:896.MonotonicArray.h 896.MonotonicArray.cc
 	g++ -g -Wall $^ -o $@ 
 898.BitwiseORsofSubarrays:898.BitwiseORsofSubarrays.cc lib.a
 	g++ -g -Wall $^ -o $@ 
 900.RLEIterator:900.RLEIterator.h 900.RLEIterator.cc
 	g++ -g -Wall $^ -o $@ 
-900.RLEIterator:900.RLEIterator.h 900.RLEIterator.cc
+901.OnlineStockSpan:901.OnlineStockSpan.h 901.OnlineStockSpan.cc
 	g++ -g -Wall $^ -o $@ 
+901.OnlineStockSpan:901.OnlineStockSpan.h 901.OnlineStockSpan.cc
 905.SortArrayByParity:905.SortArrayByParity.h 905.SortArrayByParity.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@ 
+907.SumofSubarrayMinimums:907.SumofSubarrayMinimums.h 907.SumofSubarrayMinimums.cc
 	g++ -g -Wall -std=c++11 $^ -o $@ 
 908.SmallestRangeI:908.SmallestRangeI.h 908.SmallestRangeI.cc
 	g++ -g -Wall $^ -o $@ 
@@ -742,6 +793,8 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@ 
 914.XofaKindinaDeckofCards:914.XofaKindinaDeckofCards.h 914.XofaKindinaDeckofCards.cc
 	g++ -g -Wall -std=c++11 -D c11 $^ -o $@ 
+916.WordSubsets:916.WordSubsets.h 916.WordSubsets.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@ 
 917.ReverseOnlyLetters:917.ReverseOnlyLetters.h 917.ReverseOnlyLetters.cc
 	g++ -g -Wall $^ -o $@ 
 921.MinimumAddtoMakeParenthesesValid:921.MinimumAddtoMakeParenthesesValid.h 921.MinimumAddtoMakeParenthesesValid.cc
@@ -752,6 +805,12 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@ 
 926.FlipStringtoMonotoneIncreasing:926.FlipStringtoMonotoneIncreasing.h 926.FlipStringtoMonotoneIncreasing.cc
 	g++ -g -Wall $^ -o $@ 
+927.ThreeEqualParts:927.ThreeEqualParts.h 927.ThreeEqualParts.cc
+	g++ -g -Wall $^ -o $@ 
+929.UniqueEmailAddresses:929.UniqueEmailAddresses.h 929.UniqueEmailAddresses.cc
+	g++ -g -Wall $^ -o $@ 
+930.BinarySubarraysWithSum:930.BinarySubarraysWithSum.h 930.BinarySubarraysWithSum.cc
+	g++ -g -Wall -std=c++11 $^ -o $@ 
 931.MinimumFallingPathSum:931.MinimumFallingPathSum.h 931.MinimumFallingPathSum.cc
 	g++ -g -Wall $^ -o $@ 
 938.RangeSumofBST:938.RangeSumofBST.h 938.RangeSumofBST.cc lib.a
@@ -784,6 +843,10 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@  
 965.UnivaluedBinaryTree:965.UnivaluedBinaryTree.h 965.UnivaluedBinaryTree.cc lib.a
 	g++ -g -Wall $^ -o $@  
+967.NumbersWithSameConsecutiveDifferences:967.NumbersWithSameConsecutiveDifferences.h 967.NumbersWithSameConsecutiveDifferences.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@  
+970.PowerfulIntegers:970.PowerfulIntegers.h 970.PowerfulIntegers.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@  
 974.SubarraySumsDivisiblebyK:974.SubarraySumsDivisiblebyK.h 974.SubarraySumsDivisiblebyK.cc
 	g++ -g -Wall $^ -o $@  
 976.LargestPerimeterTriangle:976.LargestPerimeterTriangle.h 976.LargestPerimeterTriangle.cc
@@ -792,12 +855,47 @@ head.o:head.cc
 	g++ -g -Wall $^ -o $@  
 978.LongestTurbulentSubarray:978.LongestTurbulentSubarray.h 978.LongestTurbulentSubarray.cc
 	g++ -g -Wall $^ -o $@  
+982.TripleswithBitwiseANDEqualToZero:982.TripleswithBitwiseANDEqualToZero.h 982.TripleswithBitwiseANDEqualToZero.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+983.MinimumCostForTickets:983.MinimumCostForTickets.h 983.MinimumCostForTickets.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
 984.StringWithoutAAAorBBB:984.StringWithoutAAAorBBB.h 984.StringWithoutAAAorBBB.cc
+	g++ -g -Wall $^ -o $@  
+986.IntervalListIntersections:986.IntervalListIntersections.h 986.IntervalListIntersections.cc
 	g++ -g -Wall $^ -o $@  
 989.AddtoArray-FormofInteger:989.AddtoArray-FormofInteger.h 989.AddtoArray-FormofInteger.cc lib.a
 	g++ -g -Wall $^ -o $@  
 991.BrokenCalculator:991.BrokenCalculator.h 991.BrokenCalculator.cc
 	g++ -g -Wall $^ -o $@  
+992.SubarrayswithKDifferentIntegers:992.SubarrayswithKDifferentIntegers.h 992.SubarrayswithKDifferentIntegers.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+994.RottingOranges:994.RottingOranges.h 994.RottingOranges.cc
+	g++ -g -Wall $^ -o $@  
+997.FindtheTownJudge:997.FindtheTownJudge.h 997.FindtheTownJudge.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1002.FindCommonCharacters:1002.FindCommonCharacters.h 1002.FindCommonCharacters.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1003.CheckIfWordIsValidAfterSubstitutions:1003.CheckIfWordIsValidAfterSubstitutions.h 1003.CheckIfWordIsValidAfterSubstitutions.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1004.MaxConsecutiveOnesIII:1004.MaxConsecutiveOnesIII.h 1004.MaxConsecutiveOnesIII.cc 
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1012.ComplementofBase10Integer:1012.ComplementofBase10Integer.h 1012.ComplementofBase10Integer.cc
+	g++ -g -Wall $^ -o $@  
+1013.PairsofSongsWithTotalDurationsDivisibleby60:1013.PairsofSongsWithTotalDurationsDivisibleby60.h 1013.PairsofSongsWithTotalDurationsDivisibleby60.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1013.PartitionArrayIntoThreePartsWithEqualSum:1013.PartitionArrayIntoThreePartsWithEqualSum.h 1013.PartitionArrayIntoThreePartsWithEqualSum.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1014.BestSightseeingPair:1014.BestSightseeingPair.h 1014.BestSightseeingPair.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1017.ConverttoBase-2:1017.ConverttoBase-2.h 1017.ConverttoBase-2.cc
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1018.BinaryPrefixDivisibleBy5:1018.BinaryPrefixDivisibleBy5.h 1018.BinaryPrefixDivisibleBy5.cc lib.a
+	g++ -g -Wall -std=c++11 $^ -o $@  
+1021.RemoveOutermostParentheses:1021.RemoveOutermostParentheses.h 1021.RemoveOutermostParentheses.cc
+	g++ -g -Wall $^ -o $@  
+1022.SumofRootToLeafBinaryNumbers:1022.SumofRootToLeafBinaryNumbers.h 1022.SumofRootToLeafBinaryNumbers.cc lib.a
+	g++ -g -Wall $^ -o $@  
 clean:
-	rm -f lib.a head.o 3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 100 26 27 29.DivideTwoIntegers 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 34.SearchforaRange 35 17 39 40 41.FirstMissingPositive 45.JumpGameII 46 47.PermutationsII 48.RotateImage 53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 72.EditDistance 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91.DecodeWays 92 94 95.UniqueBinarySearchTreesII 96.UniqueBinarySearchTrees 97.InterleavingString 98 99.RecoverBinarySearchTree 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 105.ConstructBinaryTreefromPreorderandInorderTraversal 106.ConstructBinaryTreefromInorderandPostorderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 115.DistinctSubsequences 116.PopulatingNextRightPointersinEachNode 117.PopulatingNextRightPointersinEachNodeII 118 119 120.Triangle 121 124.BinaryTreeMaximumPathSum 125 128.LongestConsecutiveSequence 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 145.BinaryTreePostorderTraversal 147.InsertionSortList 148.SortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 155.MinStack 162.FindPeakElement 164.MaximumGap 167 168 169 172.FactorialTrailingZeroes 171 173.BinarySearchTreeIterator 174.DungeonGame 187.RepeatedDNASequences 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 213.HouseRobberII 215 216.CombinationSumIII 217 219 220 221.MaximalSquare 222.CountCompleteTreeNodes  225.ImplementStackusingQueues 226.InvertBinaryTree 227.BasicCalculatorII 228.SummaryRanges 229.MajorityElementII 230.KthSmallestElementinaBST 231 232.ImplementQueueusingStacks 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 241.DifferentWaystoAddParentheses 242 257 260 263 264 268 278.FirstBadVersion 279 283 287.FindtheDuplicateNumber 290.WordPattern 297.SerializeandDeserializeBinaryTree 299.BullsandCows 300.LongestIncreasingSubsequence 303.RangeSumQuery-Immutable 304.RangeSumQuery2D-Immutable 307.RangeSumQuery-Mutable 318.MaximumProductofWordLengths 319.BulbSwitcher 322.CoinChange 326.PowerofThree 328.OddEvenLinkedList 337.HouseRobberIII 338.CountingBits 334.IncreasingTripletSubsequence 344 342 345 347.TopKFrequentElements 349.IntersectionofTwoArrays 350.IntersectionofTwoArraysII 357.CountNumberswithUniqueDigits 365.WaterandJugProblem 367.ValidPerfectSquare 368.LargestDivisibleSubset 376.WiggleSubsequence 377.CombinationSumIV 380.InsertDeleteGetRandomO1 381.InsertDeleteGetRandomO1Duplicatesallowed 386.LexicographicalNumbers 387.FirstUniqueCharacterinaString 389 383 392.IsSubsequence 394.DecodeString 396.RotateFunction 397.IntegerReplacement 402.RemoveKDigits 404.SumofLeftLeaves 405 409.LongestPalindrome 412 413.ArithmeticSlices 414 415.AddStrings 416.PartitionEqualSubsetSum 419.BattleshipsinaBoard 424.LongestRepeatingCharacterReplacement 434 437.PathSumIII 438.FindAllAnagramsinaString 441.ArrangingCoins 442.FindAllDuplicatesinanArray 443.StringCompression 445.AddTwoNumbersII 448 449.SerializeandDeserializeBST 450.DeleteNodeinaBST 451.SortCharactersByFrequency 453.MinimumMovestoEqualArrayElements 454.4SumII 455.AssignCookies 456.132Pattern 459 461 462.MinimumMovestoEqualArrayElementsII 463.IslandPerimeter 476 477.TotalHammingDistance 482.LicenseKeyFormatting 485 491.IncreasingSubsequences 492.ConstructtheRectangle 494.TargetSum 496.NextGreaterElementI 500.KeyboardRow 503.NextGreaterElementII 504 507.PerfectNumber 508.MostFrequentSubtreeSum 513 515 516.LongestPalindromicSubsequence 523.ContinuousSubarraySum 525.ContiguousArray 526.BeautifulArrangement 530.MinimumAbsoluteDifferenceinBST 532 537.ComplexNumberMultiplication 538.ConvertBSTtoGreaterTree 540.SingleElementinaSortedArray 541.ReverseStringII 542.01Matrix 543.DiameterofBinaryTree 547.FriendCircles 551.StudentAttendanceRecordI 553.OptimalDivision 554.BrickWall 556.NextGreaterElementIII 557.ReverseWordsinaStringIII 560.SubarraySumEqualsK 561.ArrayPartitionI 565.ArrayNesting 566.ReshapetheMatrix 567.PermutationinString 572.SubtreeofAnotherTree 575.DistributeCandies 581.ShortestUnsortedContinuousSubarray 583.DeleteOperationforTwoStrings 594.LongestHarmoniousSubsequence 598.RangeAdditionII 599.MinimumIndexSumofTwoLists 605.CanPlaceFlowers 606.ConstructStringfromBinaryTree 617.MergeTwoBinaryTrees 628.MaximumProductofThreeNumbers 629.KInversePairsArray 633.SumofSquareNumbers 637.AverageofLevelsinBinaryTree 639.DecodeWaysII 643.MaximumAverageSubarrayI 645.SetMismatch 646.MaximumLengthofPairChain 647.PalindromicSubstrings 650.2KeysKeyboard 653.TwoSumIV 654.MaximumBinaryTree 655.PrintBinaryTree 657.JudgeRouteCircle 660.Remove9 665.Non-decreasingArray 669.TrimaBinarySearchTree 670.MaximumSwap 671.SecondMinimumNodeInaBinaryTree 673.NumberofLongestIncreasingSubsequence 674.LongestContinuousIncreasingSubsequence 686.RepeatedStringMatch 693.BinaryNumberwithAlternatingBits 695.MaxAreaofIsland 697.DegreeofanArray 696.CountBinarySubstrings 698.PartitiontoKEqualSumSubsets 704.BinarySearch 709.ToLowerCase 712.MinimumASCIIDeleteSumforTwoStrings 713.SubarrayProductLessThanK 717.1-bitand2-bitCharacters 718.MaximumLengthofRepeatedSubarray 724.FindPivotIndex 728.SelfDividingNumbers 733.FloodFill 735.AsteroidCollision 739.DailyTemperatures 740.DeleteandEarn 744.FindSmallestLetterGreaterThanTarget 746.MinCostClimbingStairs 747.LargestNumberAtLeastTwiceofOthers 754.ReachaNumber 762.PrimeNumberofSetBitsinBinaryRepresentation 763.PartitionLabels 766.ToeplitzMatrix 769.MaxChunksToMakeSorted 771.JewelsandStones 775.GlobalandLocalInversions 777 779.K-thSymbolinGrammar 781.RabbitsinForest 784.LetterCasePermutation 788.RotatedDigits 789.EscapeTheGhosts 791.CustomSortString 797.AllPathsFromSourcetoTarget 795.NumberofSubarrayswithBoundedMaximum 796.RotateString 801.MinimumSwapsToMakeSequencesIncreasing 804 806.NumberofLinesToWriteString 813.LargestSumofAverages 819.MostCommonWord 821.ShortestDistancetoaCharacter 824.GoatLatin 830.PositionsofLargeGroups 832.FlippinganImage 836.RectangleOverlap 844 845.LongestMountaininArray 848.ShiftingLetters 849.MaximizeDistancetoClosestPerson 852.PeakIndexinaMountainArray 856.ScoreofParentheses 859.BuddyStrings 860.LemonadeChange 867 868.BinaryGap 873.LengthofLongestFibonacciSubsequence 876.MiddleoftheLinkedList 888.FairCandySwap 890.FindandReplacePattern 896.MonotonicArray 898.BitwiseORsofSubarrays 900.RLEIterator 905.SortArrayByParity 908.SmallestRangeI 914.XofaKindinaDeckofCards 915.PartitionArrayintoDisjointIntervals 917.ReverseOnlyLetters 921.MinimumAddtoMakeParenthesesValid 922.SortArrayByParityII 925.LongPressedName 926.FlipStringtoMonotoneIncreasing 931.MinimumFallingPathSum 938.RangeSumofBST 941.ValidMountainArray 942.DIStringMatch 944.DeleteColumnstoMakeSorted 945.MinimumIncrementtoMakeArrayUnique 946.ValidateStackSequences 947.MostStonesRemovedwithSameRoworColumn 948.BagofTokens 949.LargestTimeforGivenDigits 950.RevealCardsInIncreasingOrder 951.FlipEquivalentBinaryTrees 954.ArrayofDoubledPairs 957.PrisonCellsAfterNDays 961.N-RepeatedElementinSize2NArray 962.MaximumWidthRamp 965.UnivaluedBinaryTree 974.SubarraySumsDivisiblebyK 976.LargestPerimeterTriangle 977.SquaresofaSortedArray 978.LongestTurbulentSubarray 984.StringWithoutAAAorBBB 989.AddtoArray-FormofInteger 991.BrokenCalculator core
-
+	rm -f lib.a head.o 3.LongestSubstringWithoutRepeatingCharacters 5.LongestPalindromicSubstring 6.ZigZagConversion 9 10.RegularExpressionMatching 11.ContainerWithMostWater 12 13.RomantoInteger 14.LongestCommonPrefix 19 16.3SumClosest 20 21 22.GenerateParentheses 23.MergekSortedLists 15t 18 24 25 26 100 26 27 29.DivideTwoIntegers 31 32.LongestValidParentheses 33.SearchinRotatedSortedArray 34.SearchforaRange 35 17 39 40 41.FirstMissingPositive 43.MultiplyStrings 45.JumpGameII 46 47.PermutationsII 48.RotateImage 49.GroupAnagrams 53 54.SpiralMatrix 55 58 59 61 62 63 64.MinimumPathSum 66 67 69.Sqrtx 70 71.SimplifyPath 72.EditDistance 73.SetMatrixZeroes 74 75 77 78 80 81.SearchinRotatedSortedArrayII 82 83 88 89 90 91.DecodeWays 92 94 95.UniqueBinarySearchTreesII 96.UniqueBinarySearchTrees 97.InterleavingString 98 99.RecoverBinarySearchTree 101.SymmetricTree 103.BinaryTreeZigzagLevelOrderTraversal 105.ConstructBinaryTreefromPreorderandInorderTraversal 106.ConstructBinaryTreefromInorderandPostorderTraversal 107 108.ConvertSortedArraytoBinarySearchTree 109.ConvertSortedListtoBinarySearchTree 110.BalancedBinaryTree 111.MinimumDepthofBinaryTree 112 113 114.FlattenBinaryTreetoLinkedList 115.DistinctSubsequences 116.PopulatingNextRightPointersinEachNode 117.PopulatingNextRightPointersinEachNodeII 118 119 120.Triangle 121 124.BinaryTreeMaximumPathSum 125 128.LongestConsecutiveSequence 129 131.PalindromePartitioning 132.PalindromePartitioningII 134.GasStation 136 137 139.WordBreak 142.LinkedListCycleII 143.ReorderList 144 145.BinaryTreePostorderTraversal 147.InsertionSortList 148.SortList 150 152 153.FindMinimuminRotatedSortedArray 154.FindMinimuminRotatedSortedArrayII 155.MinStack 162.FindPeakElement 164.MaximumGap 167 168 169 172.FactorialTrailingZeroes 171 173.BinarySearchTreeIterator 174.DungeonGame 187.RepeatedDNASequences 189 190 191 198 199.BinaryTreeRightSideView 200 201 202.HappyNumber 203 204 205 206 209.MinimumSizeSubarraySum 213.HouseRobberII 215 216.CombinationSumIII 217 219 220 221.MaximalSquare 222.CountCompleteTreeNodes  225.ImplementStackusingQueues 226.InvertBinaryTree 227.BasicCalculatorII 228.SummaryRanges 229.MajorityElementII 230.KthSmallestElementinaBST 231 232.ImplementQueueusingStacks 234 238.ProductofArrayExceptSelf 240.Searcha2DMatrixII 241.DifferentWaystoAddParentheses 242 257 260 263 264 268 278.FirstBadVersion 279 283 287.FindtheDuplicateNumber 290.WordPattern 297.SerializeandDeserializeBinaryTree 299.BullsandCows 300.LongestIncreasingSubsequence 303.RangeSumQuery-Immutable 304.RangeSumQuery2D-Immutable 307.RangeSumQuery-Mutable 316.RemoveDuplicateLetters 318.MaximumProductofWordLengths 319.BulbSwitcher 322.CoinChange 326.PowerofThree 328.OddEvenLinkedList 337.HouseRobberIII 338.CountingBits 334.IncreasingTripletSubsequence 344 342 345 347.TopKFrequentElements 349.IntersectionofTwoArrays 350.IntersectionofTwoArraysII 354.RussianDollEnvelopes 357.CountNumberswithUniqueDigits 365.WaterandJugProblem 367.ValidPerfectSquare 368.LargestDivisibleSubset 374.GuessNumberHigherorLower 376.WiggleSubsequence 377.CombinationSumIV 380.InsertDeleteGetRandomO1 381.InsertDeleteGetRandomO1Duplicatesallowed 386.LexicographicalNumbers 387.FirstUniqueCharacterinaString 389 383 392.IsSubsequence 394.DecodeString 396.RotateFunction 397.IntegerReplacement 402.RemoveKDigits 404.SumofLeftLeaves 405 409.LongestPalindrome 412 413.ArithmeticSlices 414 415.AddStrings 416.PartitionEqualSubsetSum 419.BattleshipsinaBoard 424.LongestRepeatingCharacterReplacement 434 437.PathSumIII 438.FindAllAnagramsinaString 441.ArrangingCoins 442.FindAllDuplicatesinanArray 443.StringCompression 445.AddTwoNumbersII 448 449.SerializeandDeserializeBST 450.DeleteNodeinaBST 451.SortCharactersByFrequency 453.MinimumMovestoEqualArrayElements 454.4SumII 455.AssignCookies 456.132Pattern 459 461 462.MinimumMovestoEqualArrayElementsII 463.IslandPerimeter 467.UniqueSubstringsinWraparoundString 474.OnesandZeroes 476 477.TotalHammingDistance 482.LicenseKeyFormatting 485 486.predictthewinner 491.IncreasingSubsequences 492.ConstructtheRectangle 494.TargetSum 496.NextGreaterElementI 500.KeyboardRow 503.NextGreaterElementII 504 507.PerfectNumber 508.MostFrequentSubtreeSum 509.FibonacciNumber 513 515 516.LongestPalindromicSubsequence 518.CoinChange2 523.ContinuousSubarraySum 525.ContiguousArray 526.BeautifulArrangement 530.MinimumAbsoluteDifferenceinBST 532 537.ComplexNumberMultiplication 538.ConvertBSTtoGreaterTree 540.SingleElementinaSortedArray 541.ReverseStringII 542.01Matrix 543.DiameterofBinaryTree 547.FriendCircles 551.StudentAttendanceRecordI 553.OptimalDivision 554.BrickWall 556.NextGreaterElementIII 557.ReverseWordsinaStringIII 560.SubarraySumEqualsK 561.ArrayPartitionI 565.ArrayNesting 566.ReshapetheMatrix 567.PermutationinString 572.SubtreeofAnotherTree 575.DistributeCandies 581.ShortestUnsortedContinuousSubarray 583.DeleteOperationforTwoStrings 594.LongestHarmoniousSubsequence 598.RangeAdditionII 599.MinimumIndexSumofTwoLists 600.Non-negativeIntegerswithoutConsecutiveOnes 605.CanPlaceFlowers 606.ConstructStringfromBinaryTree 617.MergeTwoBinaryTrees 628.MaximumProductofThreeNumbers 629.KInversePairsArray 633.SumofSquareNumbers 637.AverageofLevelsinBinaryTree 639.DecodeWaysII 643.MaximumAverageSubarrayI 645.SetMismatch 646.MaximumLengthofPairChain 647.PalindromicSubstrings 650.2KeysKeyboard 653.TwoSumIV 654.MaximumBinaryTree 655.PrintBinaryTree 657.JudgeRouteCircle 660.Remove9 665.Non-decreasingArray 669.TrimaBinarySearchTree 670.MaximumSwap 671.SecondMinimumNodeInaBinaryTree 673.NumberofLongestIncreasingSubsequence 674.LongestContinuousIncreasingSubsequence 680.ValidPalindromeII 682.BaseballGame 684.RedundantConnection 686.RepeatedStringMatch 693.BinaryNumberwithAlternatingBits 695.MaxAreaofIsland 697.DegreeofanArray 696.CountBinarySubstrings 698.PartitiontoKEqualSumSubsets 704.BinarySearch 709.ToLowerCase 712.MinimumASCIIDeleteSumforTwoStrings 713.SubarrayProductLessThanK 717.1-bitand2-bitCharacters 718.MaximumLengthofRepeatedSubarray 724.FindPivotIndex 728.SelfDividingNumbers 733.FloodFill 735.AsteroidCollision 739.DailyTemperatures 740.DeleteandEarn 744.FindSmallestLetterGreaterThanTarget 746.MinCostClimbingStairs 747.LargestNumberAtLeastTwiceofOthers 754.ReachaNumber 762.PrimeNumberofSetBitsinBinaryRepresentation 763.PartitionLabels 766.ToeplitzMatrix 769.MaxChunksToMakeSorted 771.JewelsandStones 775.GlobalandLocalInversions 777 779.K-thSymbolinGrammar 781.RabbitsinForest 784.LetterCasePermutation 788.RotatedDigits 789.EscapeTheGhosts 791.CustomSortString 797.AllPathsFromSourcetoTarget 795.NumberofSubarrayswithBoundedMaximum 796.RotateString 801.MinimumSwapsToMakeSequencesIncreasing 804 806.NumberofLinesToWriteString 809.ExpressiveWords 813.LargestSumofAverages 819.MostCommonWord 821.ShortestDistancetoaCharacter 824.GoatLatin 828.UniqueLetterString 830.PositionsofLargeGroups 832.FlippinganImage 836.RectangleOverlap 844.BackspaceStringCompare 845.LongestMountaininArray 848.ShiftingLetters 849.MaximizeDistancetoClosestPerson 852.PeakIndexinaMountainArray 856.ScoreofParentheses 859.BuddyStrings 860.LemonadeChange 867 868.BinaryGap 873.LengthofLongestFibonacciSubsequence 876.MiddleoftheLinkedList 881.BoatstoSavePeople 888.FairCandySwap 890.FindandReplacePattern 891.SumofSubsequenceWidths 893.GroupsofSpecial-EquivalentStrings 896.MonotonicArray 898.BitwiseORsofSubarrays 900.RLEIterator 901.OnlineStockSpan 905.SortArrayByParity 907.SumofSubarrayMinimums 908.SmallestRangeI 914.XofaKindinaDeckofCards 915.PartitionArrayintoDisjointIntervals 916.WordSubsets 917.ReverseOnlyLetters 921.MinimumAddtoMakeParenthesesValid 922.SortArrayByParityII 925.LongPressedName 926.FlipStringtoMonotoneIncreasing  927.ThreeEqualParts 929.UniqueEmailAddresses 930.BinarySubarraysWithSum 931.MinimumFallingPathSum 938.RangeSumofBST 941.ValidMountainArray 942.DIStringMatch 944.DeleteColumnstoMakeSorted 945.MinimumIncrementtoMakeArrayUnique 946.ValidateStackSequences 947.MostStonesRemovedwithSameRoworColumn 948.BagofTokens 949.LargestTimeforGivenDigits 950.RevealCardsInIncreasingOrder 951.FlipEquivalentBinaryTrees 954.ArrayofDoubledPairs 957.PrisonCellsAfterNDays 961.N-RepeatedElementinSize2NArray 962.MaximumWidthRamp 965.UnivaluedBinaryTree 967.NumbersWithSameConsecutiveDifferences 970.PowerfulIntegers 974.SubarraySumsDivisiblebyK 976.LargestPerimeterTriangle 977.SquaresofaSortedArray 978.LongestTurbulentSubarray 982.TripleswithBitwiseANDEqualToZero 983.MinimumCostForTickets 984.StringWithoutAAAorBBB 986.IntervalListIntersections 989.AddtoArray-FormofInteger 991.BrokenCalculator 992.SubarrayswithKDifferentIntegers 997.FindtheTownJudge 994.RottingOranges 1002.FindCommonCharacters 1003.CheckIfWordIsValidAfterSubstitutions 1004.MaxConsecutiveOnesIII 1012.ComplementofBase10Integer 1013.PairsofSongsWithTotalDurationsDivisibleby60 1013.PartitionArrayIntoThreePartsWithEqualSum 1014.BestSightseeingPair 1017.ConverttoBase-2 1018.BinaryPrefixDivisibleBy5 1021.RemoveOutermostParentheses 1022.SumofRootToLeafBinaryNumbers core
+#1016.BinaryStringWithSubstringsRepresenting1ToN.h
+#1005.MaximizeSumOfArrayAfterKNegations.h
