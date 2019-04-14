@@ -11,5 +11,22 @@ class Solution {
 public:
     int trap(vector<int>& height) {
         
+    return usingStack(height) ;
+    }
+    int usingStack(vector<int>& height) {
+       if(height.size()==0) return 0; 
+	stack<int> st;
+	int res=0;
+	for(int i=0;i<height.size();)
+	{
+		if(st.empty()||height[i]<=height[st.top()])
+		st.push(i++);
+		else
+		{
+			int bottom=st.top();st.pop();
+			res+=st.empty()?0:(min(height[st.top()],height[i])-height[bottom])*(i-st.top()-1);
+		}
+	}
+	return res;
     }
 };
