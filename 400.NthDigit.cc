@@ -29,6 +29,8 @@ The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, wh
 int main()
 {
 	Solution s;
-	s.findNthDigit();
+	cout<<s.findNthDigit(3)<<endl;
+	cout<<s.findNthDigit(250)<<endl;
+	cout<<s.findNthDigit(11)<<endl;
 	return 0;
 }
