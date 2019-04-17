@@ -41,16 +41,12 @@ Note:
 
 int main()
 {
-	vector<vector<int> > v1(4);
-	v1[0].push_back(1);v1[0].push_back(2);v1[0].push_back(3);v1[0].push_back(4);			
-	v1[1].push_back(5);v1[1].push_back(1);v1[1].push_back(2);v1[1].push_back(3);			
-	v1[2].push_back(9);v1[2].push_back(5);v1[2].push_back(1);v1[2].push_back(2);			
+	vector<vector<int> > v={ {1,2,3,4},
+  {5,1,2,3},
+  {9,5,1,2}};
 	Solution s;
-	cout<<s.isToeplitzMatrix(v1)<<endl;
-	v1.clear();
-	v1.resize(2);
-	v1[0].push_back(1);	v1[0].push_back(2);
-	v1[1].push_back(2);	v1[1].push_back(2);
-	cout<<s.isToeplitzMatrix(v1)<<endl;
+	cout<<s.isToeplitzMatrix(v)<<endl;
+	v.clear();v={{1,2},{2,2}};
+	cout<<s.isToeplitzMatrix(v)<<endl;
 	return 0;
 }
