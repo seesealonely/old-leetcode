@@ -35,6 +35,7 @@ Note:
 int main()
 {
 	Solution s;
-	s.countArrangement(1);
+	cout<<s.countArrangement(1)<<endl;
+	cout<<s.countArrangement(2)<<endl;
 	return 0;
 }

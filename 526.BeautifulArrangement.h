@@ -35,6 +35,27 @@ Note:
 class Solution {
 public:
     int countArrangement(int N) {
-        
+	if(!N) return 0;
+       	count=0;
+	vector<bool> visit(N+1,false);
+	dfs(N,1,visit); 
+	return count;
     }
+    void dfs(int N,int pos,vector<bool> &visit) {
+	if(pos>N)
+	{
+		count++;
+		return;
+	}        
+	for(int i=1;i<N+1;i++)
+	{
+		if(!visit[i]&&(i%pos==0||pos%i==0))
+		{
+			visit[i]=true;
+			dfs(N,pos+1,visit);
+			visit[i]=false;
+		}
+	}
+    }
+	int count;
 };
