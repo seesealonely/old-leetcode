@@ -38,5 +38,6 @@ Note:
 int main()
 {
 	Solution s;
+	cout<<s.findTilt(buildTree())<<endl;
 	return 0;
 }
