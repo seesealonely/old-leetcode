@@ -40,8 +40,7 @@ Return 3. The paths that sum to 8 are:
 
 int main()
 {
-	TreeNode *r=buildTree();
 	Solution s;
-	cout<<s.pathSum(r)<<endl;
+	cout<<s.pathSum(buildTree(),8)<<endl;
 	return 0;
 }

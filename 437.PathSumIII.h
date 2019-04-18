@@ -39,14 +39,14 @@ Return 3. The paths that sum to 8 are:
  */
 class Solution {
 public:
-    int pathSum(TreeNode* root) {
-//	return root->val==sum+pathSum(root,root->val,sum)+pathSum(root,root->val,sum);
+    int pathSum(TreeNode* root,int sum) {
+	if(!root) return 0;
+	return dfs(root,sum)+pathSum(root->left,sum)+pathSum(root->right,sum);
     }
 private:
-	void dfs(TreeNode *root,int pre,int sum)
+	int dfs(TreeNode *root,int sum)
 	{
-//		if(!root) return 0;
-//	int current=pre+root->val;
-//	return (current==sum)+dfs(root->left,current,sum)+dfs(root->right,current,sum);
+		if (!root) return 0;
+		return (root->val==sum?1:0)+dfs(root->left,sum-root->val)+dfs(root->right,sum-root->val);
 	}
 };
