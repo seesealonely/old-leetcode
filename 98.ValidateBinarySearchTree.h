@@ -1,28 +1,28 @@
 /*
- Given a binary tree, determine if it is a valid binary search tree (BST).
+   Given a binary tree, determine if it is a valid binary search tree (BST).
 
-Assume a BST is defined as follows:
+   Assume a BST is defined as follows:
 
-    The left subtree of a node contains only nodes with keys less than the node's key.
-    The right subtree of a node contains only nodes with keys greater than the node's key.
-    Both the left and right subtrees must also be binary search trees.
+   The left subtree of a node contains only nodes with keys less than the node's key.
+   The right subtree of a node contains only nodes with keys greater than the node's key.
+   Both the left and right subtrees must also be binary search trees.
 
-Example 1:
+   Example 1:
 
-    2
+   2
    / \
-  1   3
+   1   3
 
-Binary tree [2,1,3], return true.
+   Binary tree [2,1,3], return true.
 
-Example 2:
+   Example 2:
 
-    1
+   1
    / \
-  2   3
+   2   3
 
-Binary tree [1,2,3], return false. 
-*/
+   Binary tree [1,2,3], return false. 
+   */
 
 #include"head.h"
 
@@ -36,15 +36,27 @@ Binary tree [1,2,3], return false.
  * };
  */
 class Solution {
-public:
-    bool isValidBST(TreeNode* root) {
-        	return dfs(root,NULL,NULL);
-    }
-	bool dfs(TreeNode *root,TreeNode *left,TreeNode *right)
+	public:
+		bool isValidBST(TreeNode* root) {
+		return usingStack(root);
+		}
+		bool usingStack(TreeNode *root)
 		{
 			if(!root) return true;
-			if(root->left&&root->val<root->left->val||root->right&&root->val>root->right->val)
-			return false;
-			return dfs(root,left,right)&&dfs(root->right);
+			stack<TreeNode*> st;
+			TreeNode *pre=NULL;
+			while(root||!st.empty())
+			{
+				while(root)
+				{
+					st.push(root);
+					root=root->left;	
+				}
+				TreeNode *node=st.top(); st.pop();
+				if(pre&&pre->val>=node->val) return false;
+				pre=node;
+				root=node->right;
+			}
+			return true;
 		}
 };
