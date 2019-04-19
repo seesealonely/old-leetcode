@@ -30,12 +30,37 @@ class Solution {
 public:
 Solution(int minnp,int prevp):minn(minnp),prev(prevp){}
     int getMinimumDifference(TreeNode* root) {
+	return usingStack(root);
+    }
+    int usingStack(TreeNode* root) {
+	if(!root) return 0;
+	stack<TreeNode*> st;
+	TreeNode *pre=NULL;
+	int res=INT_MAX;
+	while(root||!st.empty())
+	{
+		while(root)
+		{
+			st.push(root);
+			root=root->left;
+		}
+		TreeNode *top=st.top();
+		st.pop();
+		if(pre) res=min(res,top->val-pre->val);	
+		pre=top;
+		root=top->right;
+	}
+	return res;
+    }
+/*	int dfs(TreeNode *root)
+	{
        if(!root) return minn; 
 	getMinimumDifference(root->left);
 	prev==NULL?prev=root->val:minn=min(minn,root->val-prev);
 	getMinimumDifference(root->right);
 	return minn;
-    }
+	}
+*/
 private:
 	int minn;int prev;
 };
