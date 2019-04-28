@@ -26,7 +26,7 @@ Note:
 
 */
 
-#include"head.h"
+#include"783.MinimumDistanceBetweenBSTNodes.h"
 
 /**
  * Definition for a binary tree node.
@@ -37,42 +37,10 @@ Note:
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
-class Solution {
-public:
-	TreeNode *pre;
-	int res;
-    int minDiffInBST(TreeNode* root) {
-	pre=NULL;
-	res=INT_MAX;	
-	return dfs(root);
-	return usingStack(root);
-    }
-    int dfs(TreeNode* root) {
-	if(root->left) dfs(root->left);
-	if(pre) res=min(res,abs(root->val-pre->val));
-	pre=root;
-	if(root->right) dfs(root->right);
-	return res;
-    }
-    int usingStack(TreeNode* root) {
-	stack<TreeNode*> st;
-	TreeNode* top,*pre;
-	int res=INT_MAX;
-	pre=NULL;
-	while(root||!st.empty())
-	{
-		while(root) 
-		{
-			st.push(root);
-			root=root->left;
-		}
-		top=st.top();
-		st.pop();
-		if(pre)
-			res=min(abs(pre->val-top->val),res);
-		pre=top;
-		root=top->right;
-	}
-	return res;
-    }
-};
+
+int main()
+{
+	Solution s;
+	cout<<s.minDiffInBST(buildTree())<<endl;
+	return 0;
+}
