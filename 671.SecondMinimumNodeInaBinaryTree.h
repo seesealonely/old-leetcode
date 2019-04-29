@@ -42,6 +42,14 @@ Explanation: The smallest value is 2, but there isn't any second smallest value.
 class Solution {
 public:
     int findSecondMinimumValue(TreeNode* root) {
-        
+	return dfs(root,root->val);
+    }
+    int dfs(TreeNode* root,int val) {
+	if(!root) return -1;        
+	if(root->val!=val) return root->val;
+	int left=dfs(root->left,val),right=dfs(root->right,val);
+	if(left==-1) return right;
+	if(right==-1) return left;
+	return min(left,right);
     }
 };
