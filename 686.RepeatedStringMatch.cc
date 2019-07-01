@@ -15,7 +15,7 @@ The length of A and B will be between 1 and 10000.
 int main()
 {
 	Solution s;
-	cout<<s.bruteForce("abcd","cdabcdab")<<endl;
-	cout<<s.bruteForce("abc","cabcabca")<<endl;
+	cout<<s.repeatedStringMatch("abc","cabcabca")<<endl;
+	cout<<s.repeatedStringMatch("abcd","cdabcdab")<<endl;
 	return 0;
 }

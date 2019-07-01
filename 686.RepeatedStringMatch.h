@@ -19,8 +19,9 @@ public:
     }
 	int bruteForce(string a,string b)
 	{
-		string adda;
-		for(int i=0;i<b.size()/a.size()+2;i++,adda+=a)
+		string adda(a);
+		int i=1;
+		for(;i<=b.size()/a.size()+2;i++,adda+=a)
 			if(adda.find(b)!=string::npos) return i;
 		return -1;
 	}
