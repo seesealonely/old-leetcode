@@ -19,14 +19,11 @@ s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 
 int main()
 {
-	string ss1("3[a]2[bc]");
-	string ss2("3[a2[c]]");
-	string ss3("2[abc]3[cd]ef");
-	string ss4("sd2[f2[e]g]i");
 	Solution s;
-//	cout<<s.decodeString(ss1)<<endl;
-//	cout<<s.decodeString(ss2)<<endl;
-//	cout<<s.decodeString(ss3)<<endl;
-	cout<<s.decodeString(ss4)<<endl;
+	cout<<s.decodeString("3[a2[c]]")<<endl;
+	cout<<s.decodeString("3[a]2[bc]")<<endl;
+	cout<<s.decodeString("3[a2[c]]")<<endl;
+	cout<<s.decodeString("2[abc]3[cd]ef")<<endl;
+	cout<<s.decodeString("sd2[f2[e]g]i")<<endl;
 	return 0;
 }
