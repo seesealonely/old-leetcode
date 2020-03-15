@@ -31,6 +31,7 @@ Explanation: The longest increasing path is [3, 4, 5, 6]. Moving diagonally is n
 class Solution {
 public:
     int longestIncreasingPath(vector<vector<int>>& matrix) {
+	if(!matrix.size() ) return 0;
 	vector<vector<int> > dirs={{0,1},{1,0},{0,-1},{-1,0}};
 	vector<vector<int> > v(matrix.size(),vector<int> (matrix[0].size(),0));
 	int res=0;
