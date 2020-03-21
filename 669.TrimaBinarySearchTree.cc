@@ -54,7 +54,8 @@ Output:
 
 int main()
 {
-//	struct	TreeNode *r=buildTree();
+	struct	TreeNode *r=buildTree();
 	Solution s;
+	show(s.trimBST(r,1,2));
 	return 0;
 }
