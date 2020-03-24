@@ -39,6 +39,9 @@ Constraints:
 int main()
 {
 	Solution s;
-	s.
+	cout<<s.dayOfYear( "2019-01-09")<<endl;
+	cout<<s.dayOfYear( "2019-02-10")<<endl;
+	cout<<s.dayOfYear( "2003-03-01")<<endl;
+	cout<<s.dayOfYear( "2004-03-01")<<endl;
 	return 0;
 }
