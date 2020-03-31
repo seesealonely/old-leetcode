@@ -46,13 +46,11 @@ class Solution {
 		bool cell(vector<vector<char> > &board,int r,int c,char cur)
 		{
 			for(int i=0;i<9;i++)
-				if(board[i][c]==cur)	 return false;
-			for(int i=0;i<9;i++)
-				if(board[r][i]==cur)	 return false;
-			int row=r-r%3,col=c-c%3;
+				if(board[r][i]==cur||board[i][c]==cur)	 return false;
+			r=r-r%3,c=c-c%3;
 			for(int i=0;i<3;i++)
 				for(int j=0;j<3;j++)
-					if(board[row+i][col+j]==cur)
+					if(board[r+i][c+j]==cur)
 						return false;	
 			return true;
 		}
