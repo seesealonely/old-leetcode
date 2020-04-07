@@ -15,16 +15,12 @@ Notes:
     Answers within 10^-6 of the true value will be accepted as correct.
 */
 
-#include"head.h"
+#include"812.LargestTriangleArea.h"
 
-class Solution {
-public:
-    double largestTriangleArea(vector<vector<int>>& points) {
-	double res=0;
-	for(int i=0;i<points.size();i++)
-	for(int j=0;j<points.size();j++)
-	for(int k=0;k<points.size();k++)
-	res=max(res,0.5*abs(points[i][0]*points[j][1]+points[j][0]*points[k][1]+points[k][0]*points[i][1]-points[j][0]*points[i][1]-points[k][0]*points[j][1]-points[i][0]*points[k][1]));
-	return res;
-    }
-};
+int main()
+{
+	Solution s;
+	vector<vector<int> > v={{0,0},{0,1},{1,0},{0,2},{2,0}};
+	cout<<s.largestTriangleArea(v)<<endl;
+	return 0;
+}
